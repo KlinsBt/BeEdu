@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+}
+
+.sec1 {
+    /*background-color: #2d3044;*/
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* 
+#col-list  {
+    margin-top: 5px !important;
+}
+
+#col-list > li  {
+    font-size: 19px !important;
+}
+
+@media (min-width: 301px) and (max-width: 340px) {
+    
+    .sec-1 {
+        padding: 70px 10px 0px 10px !important;
+        margin-top: 0px !important;
+        height: 800px !important;
+    }
+
+    .sec-1 > div > div {
+        width: 270px !important;
+    }
+
+    #col-list  {
+        margin-top: 5px !important;
+    }
+
+    #col-list > li  {
+        font-size: 21px !important;
+    }
+    
+}
+
+@media (min-width: 341px) and (max-width: 440px) {
+
+    #col-list  {
+        margin-top: 5px !important;
+    }
+
+    #col-list > li  {
+        font-size: 21px !important;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 540px) {
+
+    #col-list  {
+        margin-top: 5px !important;
+    }
+
+    #col-list > li  {
+        font-size: 21px !important;
+    }
+} */
