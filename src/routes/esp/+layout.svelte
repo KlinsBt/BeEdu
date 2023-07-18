@@ -3,13 +3,9 @@
     import Navbar from './Navbar.svelte';
 	import Footer from './Footer.svelte';
 	import '../styles.css';
-	import { Analytics } from '@vercel/analytics';
-
+	// import { Analytics } from '@vercel';
 	import { dev } from '$app/environment';
- 
-	inject({
-		mode: dev ? 'development' : 'production',
-	});
+
 </script>
 
 <div class="app">
