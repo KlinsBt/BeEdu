@@ -1,7 +1,7 @@
 
 <svelte:head>
     <title>Berndt Education</title>
-    <link rel="icon" href="%svelte.assets%/favicon.png" />
+    <!-- <link rel="icon" href="%svelte.assets%/favicon.png" /> -->
     <meta name="description" content="Maßgeschneiderte Sprachkurse, Lehrpläne und Sprachdienstleistungen in Deutsch, Englisch, Spanisch und Niederländisch.">
     <meta name="keywords" content="sprachen, bildung, kurse, lernen">
     <link rel="icon" type="image/png" href="./img/icons/Wordpress.png">
@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://berndteducation.com" />
     <meta property="og:site_name" content="Berndt Education" />
     <meta property=“og:description“ content="Maßgeschneiderte Sprachkurse, Lehrpläne und Sprachdienstleistungen in Deutsch, Englisch, Spanisch und Niederländisch." />
-    <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" />
+    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
 </svelte:head>
 
 <script>
@@ -73,8 +73,8 @@
           <br>
           
           <div class="buttons">
-            <div class="button-1"><a href="ger/contact">Kontakt</a></div>
-            <div class="button-2"><a href="ger/courses">Unsere Kurse</a></div>
+            <div class="button-1"><a href="/ger/contact">Kontakt</a></div>
+            <div class="button-2"><a href="/ger/courses">Unsere Kurse</a></div>
           </div>
     
         </section>

@@ -15,10 +15,16 @@ export function handle({ event, resolve }) {
     });
   }
 
+  if (event.url.pathname.startsWith('/ger')) {
+    return resolve(event, {
+      transformPageChunk: ({ html }) => html.replace('%lang%', "de")
+    });
+  }
+
   if (event.url.pathname.startsWith('/')) {
     return resolve(event, {
       // transformPageChunk: ({pathname}) => pathname.replace('/', '/en')
-      transformPageChunk: ({ html }) => html.replace('%lang%', "en"),
+      transformPageChunk: ({ html }) => html.replace('%lang%', "en"), 
     });
   }
 

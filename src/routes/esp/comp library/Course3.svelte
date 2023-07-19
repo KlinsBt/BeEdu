@@ -69,7 +69,7 @@
                                         <h3>48h</h3>
                                     </li> -->
                                     <li>
-                                        <button class="button" style="vertical-align:middle"><a href="/contact"><span>Join Now</span></a></button>
+                                        <button class="button" style="vertical-align:middle"><a href="/esp/contact"><span>Join Now</span></a></button>
                                     </li>
                                 </ul>
                             </div>
@@ -136,14 +136,14 @@
             padding: 20px 13px;
         }
     
-        .time {
+        /* .time {
             display: grid;
             grid-template-columns: auto auto auto;
         }
     
         .time > div {
             padding-bottom: 5px !important;
-        }
+        } */
     
         .infos > li {
             list-style: none;

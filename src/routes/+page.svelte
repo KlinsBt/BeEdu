@@ -1,6 +1,6 @@
 <script>
 
-    import './styles.css';
+    import "./styles.css";
 
     // async function load() {
     //     document.getElementById('redirect').href
@@ -27,11 +27,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet"> -->
     <!----------<script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>---------->
     <title>Berndt Education</title>
-    <link rel="icon" href="favicon.png" />
+    <!-- <link rel="icon" href="favicon.png" /> -->
     <meta name="description" content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch.">
     <meta name="keywords" content="language, education, courses, learn">
     <link rel="icon" type="image/png" href="./img/icons/Wordpress.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
 
     <meta property="og:title" content="Berndt Education" />
     <meta property="og:image" content="img/icons/Wordpress.png" />
@@ -39,7 +39,7 @@
     <meta property="og:url" content="https://berndteducation.com" />
     <meta property="og:site_name" content="Berndt Education" />
     <meta property=“og:description“ content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch." />
-    <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" />
+    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
 </svelte:head>
 
     <main>

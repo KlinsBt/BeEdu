@@ -1,11 +1,11 @@
 
 <svelte:head>
     <title>Berndt Education</title>
-    <link rel="icon" href="%svelte.assets%/favicon.png" />
+    <!-- <link rel="icon" href="../favicon.png" /> -->
     <meta name="description" content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch.">
     <meta name="keywords" content="language, education, courses, learn">
     <link rel="icon" type="image/png" href="./img/icons/Wordpress.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
 
     <meta property="og:title" content="Berndt Education" />
     <meta property="og:image" content="img/icons/Wordpress.png" />
@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://berndteducation.com" />
     <meta property="og:site_name" content="Berndt Education" />
     <meta property=“og:description“ content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch." />
-    <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" />
+    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
 </svelte:head>
 
 <script>
@@ -71,8 +71,8 @@
           <br>
           
           <div class="buttons">
-            <div class="button-1"><a href="en/contact">Contact Us</a></div>
-            <div class="button-2"><a href="en/courses">Our Courses</a></div>
+            <div class="button-1"><a href="/en/contact">Contact Us</a></div>
+            <div class="button-2"><a href="/en/courses">Our Courses</a></div>
           </div>
     
         </section>

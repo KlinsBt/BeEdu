@@ -151,7 +151,7 @@ const stickToTop = () => {
     {#if menuDiv == "ms-open"}
       <section transition:slide={{duration: 300}} class="{menuDiv} {menuDivSticky}">
         <ul id={col} transition:slide={{duration: 300}}>
-          <li><a href="/">Inicio</a></li>
+          <li><a href="/esp">Inicio</a></li>
           <li><a href="/esp/courses">Cursos BE</a></li>
           <li><a href="/esp/corporate">Particulares y empresas</a></li>
           <div class="dropdown-corporate-clients">
