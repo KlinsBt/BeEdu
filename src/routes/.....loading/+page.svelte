@@ -1,6 +1,6 @@
 <script>
 
-    import "./styles.css";
+    import "../styles.css";
 
     // async function load() {
     //     document.getElementById('redirect').href
