@@ -60,7 +60,7 @@
                 <h3 id="descr-1">With Berndt Education you will think wider and further ahead</h3>
                 <p id="descr-2">Berndt Education offers personalized language courses for businesses and 
                     individuals by creating the ideal conditions for you to learn your desired language 
-                    as quickly and effectively as possible. Professional educators will create a taylor-made 
+                    as quickly and effectively as possible. Professional educators will create a tailor-made 
                     programme that suits your work-life balance and leaves you smarter than before after every session.</p>
             </div>
 
