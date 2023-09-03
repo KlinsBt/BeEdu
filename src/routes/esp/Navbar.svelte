@@ -109,7 +109,11 @@ const stickToTop = () => {
         <div class="nav-container-middle">
             <ul id="nav-list">
                 <li><a href="/esp">Inicio</a></li>
-                <li><a href="/esp/courses">Cursos BE</a></li>
+                <li><a href="/esp/courses">Cursos BE</a>
+                  <ul class="dropdown">
+                    <li><a href="/esp/uni-admissions">Admisiones Universitarias</a>
+                  </ul>
+                </li>
                 <li><a href="/esp/corporate">Particulares y empresas</a>
                   <ul class="dropdown">
                     <li><a href="/esp/coming-soon">Traducción</a></li>
@@ -151,17 +155,35 @@ const stickToTop = () => {
     {#if menuDiv == "ms-open"}
       <section transition:slide={{duration: 300}} class="{menuDiv} {menuDivSticky}">
         <ul id={col} transition:slide={{duration: 300}}>
-          <li><a href="/esp">Inicio</a></li>
-          <li><a href="/esp/courses">Cursos BE</a></li>
-          <li><a href="/esp/corporate">Particulares y empresas</a></li>
-          <div class="dropdown-corporate-clients">
+          <li on:click={toggleMenu}><a href="/esp">Inicio</a></li>
+          <li on:click={toggleMenu}><a href="/esp/courses">Cursos BE</a></li>
+          <div on:click={toggleMenu} class="dropdown-uni-admissions">
+            <a href="/esp/uni-admissions">Admisiones Universitarias</a>
+          </div>
+          <li on:click={toggleMenu}><a href="/esp/corporate">Particulares y empresas</a></li>
+          <div on:click={toggleMenu} class="dropdown-corporate-clients">
             <a href="/esp/coming-soon">Traducción</a>
             <a href="/esp/coming-soon">Interpretación</a>
             <a href="/esp/coming-soon">Empresa Cursos</a>
           </div>
-          <li><a href="/esp/education-travel">Aprender, inspirar y explorar</a></li>
-          <li><a href="/esp/about-us">Quiénes somos</a></li>
-          <li><a href="/esp/contact">Contacto</a></li>
+          <li on:click={toggleMenu}><a href="/esp/education-travel">Aprender, inspirar y explorar</a></li>
+          <li on:click={toggleMenu}><a href="/esp/about-us">Quiénes somos</a></li>
+          <li on:click={toggleMenu}><a href="/esp/contact">Contacto</a></li>
+        </ul>
+
+        <div class="nav-container-collapsed">
+          <div id="select-language" on:click={toggleLang}>
+              <img id="flag" src={languages[lng].flag} alt="">
+              <p id="selected-language">{languages[lng].name}</p>
+          </div>
+          {#if showLang}
+          <ul id="language-container">
+            {#each languages as language (language.id)}
+              <a data-sveltekit-reload href="{language.link}" on:click={() => selectLanguage(language.id)} on:click={toggleLang}><li>{language.name}</li></a>
+            {/each}
+          </ul>
+          {/if}
+        </div>
       </section>
     {/if}
     <!---------- Collapsed Menu 2 End ---------->
@@ -202,6 +224,10 @@ const stickToTop = () => {
   .nav-container-right {
       display: none !important;
   }  
+
+  .nav-container-collapsed {
+    display: inline-block !important;
+  }
 }
 
   @media only screen and (min-width: 800px) {
@@ -241,7 +267,7 @@ nav {
 
 #nav-list > li > .dropdown {
   display: grid;
-  max-width: 140px !important;
+  /* max-width: 120px !important; */
   justify-items: left;
   align-items: center;
   text-align: center;
@@ -251,6 +277,8 @@ nav {
   height: 0px;
   transition: 0.4s !important;
   border-radius: 15px 0px 15px 0px;
+  overflow: hidden;
+  position: absolute;
 }
 
 #nav-list > li > .dropdown {
@@ -259,6 +287,7 @@ nav {
 }
 
 .dropdown > li {
+  position: relative;
   transition: 0.4s !important;
   display: none;
 }
@@ -268,6 +297,17 @@ nav {
   font-size: 14px;
   font-weight: 500;
   transition: 0.4s !important;
+}
+
+#nav-list > li:nth-child(2) > a:hover + .dropdown {
+    padding: 5px !important;
+    height: 50px !important;
+    transition: 0.4s !important;
+}
+
+#nav-list > li:nth-child(2) > a:hover + .dropdown > li {
+    display: grid;
+    transition: 0.4s !important;
 }
 
 #nav-list > li:nth-child(3) > a:hover + .dropdown {
@@ -299,7 +339,14 @@ nav {
     font-size: 14px !important;
 }
 
-.dropdown:hover {
+#nav-list > li:nth-child(2) > .dropdown:hover {
+    padding: 5px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    transition: 0s !important;
+}
+
+#nav-list > li:nth-child(3) > .dropdown:hover {
     padding: 5px !important;
     height: 100px !important;
     font-size: 18px !important;
@@ -313,6 +360,24 @@ nav {
 
 
 
+
+
+.dropdown-uni-admissions {
+  display: grid;
+  justify-items: left;
+}
+
+.dropdown-uni-admissions > a {
+  margin: 0px 0px 0px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  transition: 0.1s;
+}
+
+.dropdown-uni-admissions > a:hover {
+  color: white; 
+}
 
 .dropdown-corporate-clients {
   display: grid;
@@ -548,7 +613,7 @@ background-color: rgba(134, 134, 134, 0.8);
 }
 
 .menu-section {
-    display: flex !important;
+    display: grid !important;
     height: 0vh;
     justify-content: center;
     align-items: center;
@@ -559,7 +624,7 @@ background-color: rgba(134, 134, 134, 0.8);
 }
 
 .ms-open {
-    display: flex !important;
+    display: grid !important;
     height: 275px;
     justify-content: center;
     align-items: center;
@@ -567,6 +632,13 @@ background-color: rgba(134, 134, 134, 0.8);
     color: rgb(0, 0, 0);
     z-index: 3;
     padding: 10px 0px 5px 0px;
+}
+
+.nav-container-collapsed {
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  display: none;
 }
 
 .menu-btn {
@@ -662,6 +734,10 @@ background-color: rgba(134, 134, 134, 0.8);
     background-color: #d6b18c;
     color: rgb(0, 0, 0);
     /*animation: expand 0.5s ease !important;*/
+  }
+
+  .nav-container-collapsed {
+    display: inline-block !important;
   }
 
 }

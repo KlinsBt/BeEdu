@@ -29,6 +29,7 @@
             </div>
         </div>
     </div>
+
     <div class="card" id="custom1">
         <div class="circle">
             <div class="imgBox">
@@ -47,6 +48,26 @@
                     culture in Paris, Vienna, and Munich, I moved to Berlin about 3 years ago. I had the opportunity to make amazing connections 
                     in Germany and to work within German and international teams as a translator in the luxury market. I will be happy to support 
                     you on your learning path, whether you are new to German and French or aiming for perfect fluency.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="../img/AneelaProfile.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Aneela Shah</h3>
+            <div class="textIcon">
+                <h4>Copywriter & Educator (EN)</h4>
+            </div>
+            <div>
+                <p>
+                    I’m a graduate from the University of Oxford and studied English Language and Literature. I love reading and poetry, and teaching 
+                    the English language is one of my passions. I also work as a copywriter for a marketing company based in Oxford.
                 </p>
             </div>
         </div>

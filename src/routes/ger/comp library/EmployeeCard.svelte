@@ -31,6 +31,7 @@
             </div>
         </div>
     </div>
+
     <div class="card" id="custom1">
         <div class="circle">
             <div class="imgBox">
@@ -40,7 +41,7 @@
         <div class="content">
             <h3>Anne-Sophie</h3>
             <div class="textIcon">
-                <h4>Dozent (DE, FR)</h4>
+                <h4>Dozentin (DE, FR)</h4>
             </div>
             <div>
                 <p ><!---style="font-size: 9px !important"--->
@@ -50,6 +51,27 @@
                     Ich hatte die Gelegenheit, in Deutschland großartige Kontakte zu knüpfen und in deutschen und internationalen 
                     Teams als Übersetzerin in der Luxusbranche zu arbeiten. Ich würde mich freuen, Sie auf Ihrem Lernweg zu unterstützen, ganz gleich, 
                     ob Sie neu in der deutschen und französischen Sprache sind oder eine perfekte Sprachbeherrschung anstreben.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="../img/AneelaProfile.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Aneela Shah</h3>
+            <div class="textIcon">
+                <h4>Werbetexterin und Dozentin (EN)</h4>
+            </div>
+            <div>
+                <p>
+                    Ich bin Absolventin der University of Oxford und habe Englische Sprache und Literatur studiert. 
+                    Ich liebe Lesen und Poesie, und das Unterrichten der englischen Sprache ist eine meiner Leidenschaften. 
+                    Außerdem arbeite ich als Werbetexterin für ein Marketingunternehmen mit Sitz in Oxford.
                 </p>
             </div>
         </div>

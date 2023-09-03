@@ -32,6 +32,7 @@
             </div>
         </div>
     </div>
+
     <div class="card" id="custom1">
         <div class="circle">
             <div class="imgBox">
@@ -53,6 +54,27 @@
                     en Alemania y de trabajar en equipos alemanes e internacionales como traductora en el mercado 
                     del lujo. Estaré encantada de en su aprendizaje, tanto si es nuevo en el alemán y el francés 
                     como si quiere dominarlos a la perfección.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="../img/AneelaProfile.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Aneela Shah</h3>
+            <div class="textIcon">
+                <h4>Redactor y Educador (EN)</h4>
+            </div>
+            <div>
+                <p>
+                    Soy licenciada por la Universidad de Oxford y estudié Filología Inglesa. Me encanta la lectura y 
+                    la poesía, y enseñar la lengua inglesa es una de mis pasiones. También trabajo como redactora para 
+                    una empresa de marketing con sede en Oxford.
                 </p>
             </div>
         </div>
