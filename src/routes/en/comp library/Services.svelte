@@ -34,7 +34,7 @@
         </ul>
         <div class="action">
         <a class="button" href="/en/contact">
-            Choose plan
+            Contact Us
         </a>
         </div>
     </div>
@@ -72,7 +72,7 @@
         </ul>
         <div class="action">
         <a class="button" href="/en/contact">
-            Choose plan
+            Contact Us
         </a>
         </div>
     </div>
@@ -113,7 +113,7 @@
         </ul>
         <div class="action">
         <a class="button" href="/en/contact">
-            Choose plan
+            Contact Us
         </a>
         </div>
     </div>
