@@ -80,6 +80,32 @@
         </div>
     </div>
 
+    <div class="card" id="custom1">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="../img/ChristianProfile.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Christian Blanco</h3>
+            <div class="textIcon">
+                <h4>Educator (ES, DE, EN, FR)</h4>
+            </div>
+            <div>
+                <p style="font-size: 12px !important">
+                    Tengo la nacionalidad francesa y española y el español y el francés son mis lenguas maternas y tengo un 
+                    certificado B2-C1 en inglés y un C1.2 en alemán. Doy clases de inglés y francés y alemán, he hecho los 
+                    cursos ELE en el Instituto Cervantes de Viena y tengo la acreditación DELE en el Instituto Cervantes de 
+                    Zagreb para enseñar y examinar oficialmente la lengua española. Soy Licenciado en Historia del Arte por 
+                    la Universidad Autónoma de Madrid (España), Máster en Filosofía Teórica y Práctica por la UNED y la 
+                    Universidad de Jena (Alemania), Máster en Historia y Filosofía de la Ciencia por la Universidad de Viena 
+                    (Austria) y la École Normale Supérieure de París (Francia); MA. en Unión Europea: European Multilevel 
+                    Integration and Fundamental Rights en la UNED y en breve comenzará un doctorado en Filosofía.
+                </p>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <style>
@@ -183,7 +209,7 @@
     }
 
     p {
-        padding: 20px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
         font-size: 0.8em;
         font-weight: 400;
     }

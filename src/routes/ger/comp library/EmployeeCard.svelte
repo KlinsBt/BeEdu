@@ -77,6 +77,32 @@
         </div>
     </div>
 
+    <div class="card" id="custom1">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="../img/ChristianProfile.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Christian Blanco</h3>
+            <div class="textIcon">
+                <h4>Educator (ES, DE, EN, FR)</h4>
+            </div>
+            <div>
+                <p style="font-size: 11.7px !important">
+                    Ich habe die französische und spanische Staatsbürgerschaft, Spanisch und Französisch sind meine Muttersprachen und ich 
+                    habe ein zertifiziertes B2-C1 in Englisch und ein C1.2 in Deutsch. Ich unterrichte Englisch, Französisch und Deutsch, 
+                    habe die ELE-Kurse am Cervantes-Institut in Wien absolviert und besitze die DELE-Akkreditierung des Cervantes-Instituts 
+                    in Zagreb, um die spanische Sprache offiziell zu unterrichten und zu prüfen. Ich habe einen BA in Kunstgeschichte an der 
+                    Autonomen Universität Madrid in Spanien, einen MA in Theoretischer und Praktischer Philosophie an der UNED und an der 
+                    Universität Jena in Deutschland, einen MA in Wissenschaftsgeschichte und -philosophie an der Universität Wien in Österreich 
+                    und an der École Normale Supérieure von Paris in Frankreich; einen MA in Europäische Union: European Multilevel Integration 
+                    and Fundamental Rights" an der UNED und wird in Kürze ein Doktorat in Philosophie beginnen.
+                </p>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <style>
@@ -180,7 +206,7 @@
     }
 
     p {
-        padding: 20px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
         font-size: 0.8em;
         font-weight: 400;
     }
