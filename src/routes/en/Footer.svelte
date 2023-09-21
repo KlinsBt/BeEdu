@@ -40,7 +40,7 @@
                     Spain
                     <div>
                         <p><a itemprop="email" href="mailto:info@berndteducation.com" class="svelte-1j5i9np">info@berndteducation.com</a></p>
-                        <p><a href="tel:+34631896435">+34 631896435</a></p>
+                        <p><a href="tel:+34622511921">+34622511921</a></p>
                         <p><a href="tel:+447922489668">+447922489668</a></p>
                         <!-- <p><a href="/">Imprint</a></p>
                         <p><a href="/">Terms of Usage</a></p> -->
