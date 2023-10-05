@@ -35,11 +35,9 @@
                 <address>
                     <span>Berndt Education
                         <br>
-                        Calle Salamanca, 31
+                        Calle Barcenillas 8
                         <br>
-                        Planta Tercera, Puerta 1   
-                        <br>
-                        29013, Málaga
+                        29012, Malaga
                         <br>
                         España
                         <div>
