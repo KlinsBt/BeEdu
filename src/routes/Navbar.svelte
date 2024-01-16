@@ -3,7 +3,7 @@
     import { fade, blur, fly, slide, scale } from "svelte/transition";
     // import { quintOut } from "svelte/easing";
     // import { transition_in } from "svelte/internal";
-    import './styles.css';
+    import "./styles.css";
 
 /////////////// Language Container ///////////////////////////////////////
 
@@ -111,7 +111,7 @@ const stickToTop = () => {
                 <li><a href="/">Home</a></li>
                 <li><a href="/courses">BE Courses</a>
                   <ul class="dropdown">
-                    <li><a href="/uni-admissions">University Admissions</a>
+                    <li><a href="/education-travel">Education Travel</a>
                   </ul>
                 </li>
                 <li><a href="/corporate">Corporate Clients</a>
@@ -121,7 +121,7 @@ const stickToTop = () => {
                     <li><a href="/coming-soon">Company Courses</a></li>
                   </ul>
                 </li>
-                <li><a href="/education-travel">Education Travel</a></li>
+                <li><a href="/uni-admissions">University Admissions</a></li>
                 <li><a href="/about-us">About Us</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
@@ -159,7 +159,7 @@ const stickToTop = () => {
           <li on:click={toggleMenu}><a href="/">Home</a></li>
           <li on:click={toggleMenu}><a href="/courses">BE Courses</a></li>
           <div on:click={toggleMenu} class="dropdown-uni-admissions">
-            <a href="/uni-admissions">University Admissions</a>
+            <a href="/education-travel">Education Travel</a>
           </div>
           <li on:click={toggleMenu}><a href="/corporate">Corporate Clients</a></li>
           <div class="dropdown-corporate-clients">
@@ -167,7 +167,7 @@ const stickToTop = () => {
             <a href="/coming-soon">Interpretation</a>
             <a href="/coming-soon">Company Courses</a>
           </div>
-          <li on:click={toggleMenu}><a href="/education-travel">Education Travel</a></li>
+          <li on:click={toggleMenu}><a href="/uni-admissions">University Admissions</a></li>
           <li on:click={toggleMenu}><a href="/about-us">About Us</a></li>
           <li on:click={toggleMenu}><a href="/contact">Contact</a></li>
         </ul> 
@@ -676,7 +676,7 @@ background-color: rgba(134, 134, 134, 0.8);
   }
   .menu-btn__burger::before,
   .menu-btn__burger::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 50px;
     height: 6px;

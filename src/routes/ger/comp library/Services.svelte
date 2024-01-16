@@ -4,11 +4,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Bronze</p>
         <p class="info">
           Individuelle Unterstützung je nach Bedarf und Budget.
@@ -21,12 +21,12 @@
         <p class="info">- Bewerbung um ein Stipendium</p>
         <p class="info">... und mehr</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>3</strong> Sprechstunden</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -44,11 +44,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Silber</p>
         <p class="info">
           Umfassende strategische End-to-End-Unterstützung für den Bewerbungsprozess, 
@@ -62,12 +62,12 @@
         <p class="info">- Bewerbung um ein Stipendium</p>
         <p class="info">... und mehr</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>5</strong> Sprechstunden</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -85,11 +85,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Gold</p>
         <p class="info">
           Umfassende strategische End-to-End-Unterstützung für den Bewerbungsprozess, 
@@ -106,12 +106,12 @@
           Freiwilligenarbeit, Berufserfahrung, Wettbewerbe und mehr.
         </p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
-                <span><strong>10</strong> Bewerbungsprüfung</span>
-            </li>
+                <span><strong>10</strong> Sprechstunden</span>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">

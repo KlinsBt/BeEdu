@@ -111,7 +111,7 @@ const stickToTop = () => {
                 <li><a href="/en">Home</a></li>
                 <li><a href="/en/courses">BE Courses</a>
                   <ul class="dropdown">
-                    <li><a href="/en/uni-admissions">University Admissions</a>
+                    <li><a href="/en/education-travel">Education Travel</a>
                   </ul>
                 </li>
                 <li><a href="/en/corporate">Corporate Clients</a>
@@ -121,7 +121,7 @@ const stickToTop = () => {
                     <li><a href="/en/coming-soon">Company Courses</a></li>
                   </ul>
                 </li>
-                <li><a href="/en/education-travel">Education Travel</a></li>
+                <li><a href="/en/uni-admissions">University Admissions</a></li>
                 <li><a href="/en/about-us">About Us</a></li>
                 <li><a href="/en/contact">Contact</a></li>
             </ul>
@@ -158,7 +158,7 @@ const stickToTop = () => {
           <li on:click={toggleMenu}><a href="/en/">Home</a></li>
           <li on:click={toggleMenu}><a href="/en/courses">BE Courses</a></li>
           <div on:click={toggleMenu} class="dropdown-uni-admissions">
-            <a href="/en/uni-admissions">University Admissions</a>
+            <a href="/en/education-travel">Education Travel</a>
           </div>
           <li on:click={toggleMenu}><a href="/en/corporate">Corporate Clients</a></li>
           <div on:click={toggleMenu} class="dropdown-corporate-clients">
@@ -166,7 +166,7 @@ const stickToTop = () => {
             <a href="/en/coming-soon">Interpretation</a>
             <a href="/en/coming-soon">Company Courses</a>
           </div>
-          <li on:click={toggleMenu}><a href="/en/education-travel">Education Travel</a></li>
+          <li on:click={toggleMenu}><a href="/en/uni-admissions">University Admissions</a></li>
           <li on:click={toggleMenu}><a href="/en/about-us">About Us</a></li>
           <li on:click={toggleMenu}><a href="/en/contact">Contact</a></li>
         </ul>

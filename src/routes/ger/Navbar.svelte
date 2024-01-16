@@ -111,7 +111,7 @@ const stickToTop = () => {
                 <li><a href="/ger">Home</a></li>
                 <li><a href="/ger/courses">BE-Kurse</a>
                   <ul class="dropdown">
-                    <li><a href="/ger/uni-admissions">Universitätszulassungen</a>
+                    <li><a href="/ger/education-travel">Bildung und Reisen</a>
                   </ul>
                 </li>
                 <li><a href="/ger/corporate">Firmenkunden</a>
@@ -121,7 +121,7 @@ const stickToTop = () => {
                     <li><a href="/ger/coming-soon">Firmenkurse</a></li>
                   </ul>
                 </li>
-                <li><a href="/ger/education-travel">Bildung und Reisen</a></li>
+                <li><a href="/ger/uni-admissions">Universitätszulassungen</a></li>
                 <li><a href="/ger/about-us">Über Uns</a></li>
                 <li><a href="/ger/contact">Kontakt</a></li>
             </ul>
@@ -158,7 +158,7 @@ const stickToTop = () => {
           <li on:click={toggleMenu}><a href="/ger/">Home</a></li>
           <li on:click={toggleMenu}><a href="/ger/courses">BE-Kurse</a></li>
           <div on:click={toggleMenu} class="dropdown-uni-admissions">
-            <a href="/ger/uni-admissions">Universitätszulassungen</a>
+            <a href="/ger/education-travel">Bildung und Reisen</a>
           </div>
           <li on:click={toggleMenu}><a href="/ger/corporate">Firmenkunden</a></li>
           <div on:click={toggleMenu} class="dropdown-corporate-clients">
@@ -166,7 +166,7 @@ const stickToTop = () => {
             <a href="/ger/coming-soon">Dolmetschen</a>
             <a href="/ger/coming-soon">Firmenkurse</a>
           </div>
-          <li on:click={toggleMenu}><a href="/ger/education-travel">Bildung und Reisen</a></li>
+          <li on:click={toggleMenu}><a href="/ger/uni-admissions">Universitätszulassungen</a></li>
           <li on:click={toggleMenu}><a href="/ger/about-us">Über Uns</a></li>
           <li on:click={toggleMenu}><a href="/ger/contact">Kontakt</a></li>
         </ul>

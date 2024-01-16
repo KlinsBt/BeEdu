@@ -4,11 +4,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Bronce</p>
         <p class="info">Apoyo personalizado adaptado a las necesidades y al presupuesto.</p>
         <br>
@@ -19,12 +19,12 @@
         <p class="info">- Solicitud de becas</p>
         <p class="info">... y más</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>3</strong> Horas de consulta</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -42,11 +42,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Plata</p>
         <p class="info">Apoyo estratégico integral en el proceso de solicitud adaptado a cada estudiante.</p>
         <br>
@@ -57,12 +57,12 @@
         <p class="info">- Solicitud de becas</p>
         <p class="info">... y más</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>5</strong> Horas de consulta</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -80,11 +80,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Oro</p>
         <p class="info">Apoyo estratégico integral en el proceso de solicitud adaptado a cada estudiante.</p>
         <br>
@@ -97,12 +97,12 @@
           personal, áreas suplementarias como voluntariado, experiencia laboral, concursos, etc.
         </p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>10</strong> Horas de consulta</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
@@ -211,7 +211,7 @@
   justify-content: center;
   color: #fff;
   border-radius: 50%;
-  width: 20px;
+  width: 25px;
   height: 20px;
 }
 

@@ -4,11 +4,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Bronze</p>
         <p class="info">Personalised support to suit requirements and budget.</p>
         <br>
@@ -19,12 +19,12 @@
         <p class="info">- Scholarship applications</p>
         <p class="info">... and more</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>3</strong> Consultancy Hours</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -42,11 +42,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Silver</p>
         <p class="info">Comprehensive end-to-end strategic support on the application process tailored to each student.</p>
         <br>
@@ -57,12 +57,12 @@
         <p class="info">- Scholarship applications</p>
         <p class="info">... and more</p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>5</strong> Consultancy Hours</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/uncheck.png" alt="Uncheck">
@@ -80,11 +80,11 @@
 
 <div class="plan">
     <div class="inner">
-        <span class="pricing">
+        <!-- <span class="pricing">
             <span>
                 £150 <small>/ h</small>
             </span>
-        </span>
+        </span> -->
         <p class="title">Gold</p>
         <p class="info">Comprehensive end-to-end strategic support on the application process tailored to each student.</p>
         <br>
@@ -98,12 +98,12 @@
              as voluntary work, work experience, competitions, and more.
         </p>
         <ul class="features">
-            <li>
+            <!-- <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">
                 </span>
                 <span><strong>10</strong> Consultancy Hours</span>
-            </li>
+            </li> -->
             <li>
                 <span class="icon">
                     <img src="../img/uni-admissions/check.png" alt="Uncheck">

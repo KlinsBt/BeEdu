@@ -111,7 +111,7 @@ const stickToTop = () => {
                 <li><a href="/esp">Inicio</a></li>
                 <li><a href="/esp/courses">Cursos BE</a>
                   <ul class="dropdown">
-                    <li><a href="/esp/uni-admissions">Admisiones Universitarias</a>
+                    <li><a href="/esp/education-travel">Aprender, inspirar y explorar</a>
                   </ul>
                 </li>
                 <li><a href="/esp/corporate">Particulares y empresas</a>
@@ -121,7 +121,7 @@ const stickToTop = () => {
                     <li><a href="/esp/coming-soon">Empresa Cursos</a></li>
                   </ul>
                 </li>
-                <li><a href="/esp/education-travel">Aprender, inspirar y explorar</a></li>
+                <li><a href="/esp/uni-admissions">Admisiones Universitarias</a></li>
                 <li><a href="/esp/about-us">Quiénes somos</a></li>
                 <li><a href="/esp/contact">Contacto</a></li>
             </ul>
@@ -158,7 +158,7 @@ const stickToTop = () => {
           <li on:click={toggleMenu}><a href="/esp">Inicio</a></li>
           <li on:click={toggleMenu}><a href="/esp/courses">Cursos BE</a></li>
           <div on:click={toggleMenu} class="dropdown-uni-admissions">
-            <a href="/esp/uni-admissions">Admisiones Universitarias</a>
+            <a href="/esp/education-travel">Aprender, inspirar y explorar</a>
           </div>
           <li on:click={toggleMenu}><a href="/esp/corporate">Particulares y empresas</a></li>
           <div on:click={toggleMenu} class="dropdown-corporate-clients">
@@ -166,7 +166,7 @@ const stickToTop = () => {
             <a href="/esp/coming-soon">Interpretación</a>
             <a href="/esp/coming-soon">Empresa Cursos</a>
           </div>
-          <li on:click={toggleMenu}><a href="/esp/education-travel">Aprender, inspirar y explorar</a></li>
+          <li on:click={toggleMenu}><a href="/esp/uni-admissions">Admisiones Universitarias</a></li>
           <li on:click={toggleMenu}><a href="/esp/about-us">Quiénes somos</a></li>
           <li on:click={toggleMenu}><a href="/esp/contact">Contacto</a></li>
         </ul>
