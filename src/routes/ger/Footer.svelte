@@ -1,5 +1,5 @@
 <script>
-
+    const currentYear = new Date().getFullYear();
 </script>
 
 <main>
@@ -45,7 +45,7 @@
                         <p><a href="/ger/privacy-policy">Datenschutzerklärung</a></p>
                         <!-- <p><a href="/">FAQ</a></p> -->
                         <br/>
-                        <p>Copyright © 2023 - Berndt Education</p>
+                        <p>Copyright © {currentYear} - Berndt Education</p>
                     </div>
                 </span>
             </address>
