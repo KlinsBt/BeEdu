@@ -144,7 +144,13 @@
     .info-box > img {
         width: 100%;
         height: auto;
-        max-height: 800px; 
+        max-height: 400px; 
+    }
+
+    .info-box:nth-child(2) > img {
+        width: 100%;
+        height: auto;
+        max-height: 570px; 
     }
 
     .info-box > p {
