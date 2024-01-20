@@ -124,15 +124,15 @@
     }
 
     .info-box > p {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 500;
-        padding: 25px 25px;
+        padding: 25px 10%;
     }
 
     .services-container {
         display: grid;
         justify-items: center;
-        align-items: baseline;
+        align-items: end;
         grid-template-columns: auto auto auto;
     }
 
