@@ -37,7 +37,7 @@
             <div class="info-box">
                 <p>
                     13 Jahre Erfahrung als Berater und Leiter von Top-Bildungsprogrammen in Großbritannien und Zusammenarbeit
-                    mit Hunderten von Studenten in Weltklasse-Institutionen wie Oxford, Cambridge und London. 
+                    mit Hunderten von Studenten in Weltklasse-Institutionen wie Oxford, Cambridge, London und der Harvard University. 
                     Die Tutoren von Berndt Education entwerfen erfolgreiche, individuelle akademische und berufliche Pläne 
                     für die Studenten. In unserer Firma sind wir stolz auf unser Team von erfahrenen Beratern. Alle unsere 
                     Tutoren waren Zulassungsbeauftragte und/oder haben an der Universität Oxford unterrichtet. Dadurch haben 

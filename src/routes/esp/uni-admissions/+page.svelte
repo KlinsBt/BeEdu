@@ -34,12 +34,13 @@
             <div class="info-box">
                 <p>
                     13 años de experiencia como consultor y líder de programas educativos de alto nivel en el Reino Unido, 
-                    y ha trabajado con cientos de estudiantes en instituciones instituciones de clase mundial como Oxford, Cambridge, Londres. 
-                    Los tutores de Berndt Education diseñarán exitosos planes académicos y profesionales personalizados para los estudiantes. 
-                    En nuestra consultoría, nos enorgullecemos de nuestro equipo de consultores experimentados. Todos nuestros tutores han 
-                    sido responsables de admisiones y/o han impartido clases para la Universidad de Oxford. Esto proporciona una visión 
-                    única y apoyo en el proceso de admisión de las mejores universidades, lo que nos permite ofrecer un enfoque integral 
-                    y estratégico de las admisiones universitarias.
+                    y ha trabajado con cientos de estudiantes en instituciones instituciones de clase mundial como Oxford, 
+                    Cambridge, Londres y la Universidad de Harvard. Los tutores de Berndt Education diseñarán exitosos planes 
+                    académicos y profesionales personalizados para los estudiantes. En nuestra consultoría, nos enorgullecemos 
+                    de nuestro equipo de consultores experimentados. Todos nuestros tutores han sido responsables de admisiones 
+                    y/o han impartido clases para la Universidad de Oxford. Esto proporciona una visión única y apoyo en el 
+                    proceso de admisión de las mejores universidades, lo que nos permite ofrecer un enfoque integral y estratégico 
+                    de las admisiones universitarias.
                 </p>
                 <img src="/img/uni-admissions/2.jpg" alt="Img">
             </div>

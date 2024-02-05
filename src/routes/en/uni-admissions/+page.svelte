@@ -34,11 +34,11 @@
             <div class="info-box">
                 <p>
                     13 years of experience as a consultant and leader of top educational programmes in the
-                    UK, and worked with hundredes of students in world-class
-                    institutions such as Oxford, Cambridge, London. 
-                    Berndt Education tutors will design successful personalised academic and career plans for students.
-                    At our consultancy, we pride ourselves on our team of experienced consultants. 
-                    All of our tutors have been admissions officers and/or taught for the University of Oxford. 
+                    UK, and worked with hundredes of students in world-class institutions such as 
+                    Oxford, Cambridge, London and Harvard University. Berndt Education tutors will design 
+                    successful personalised academic and career plans for students. At our consultancy, we 
+                    pride ourselves on our team of experienced consultants. All of our tutors have been 
+                    admissions officers and/or taught for the University of Oxford and other top universities. 
                     This provides unique insights and support into the admissions process of top universities, 
                     allowing us to offer a comprehensive and strategic approach to university admissions.
                 </p>
@@ -54,8 +54,8 @@
                     preparation, admissions test preparation, scholarship applications, and more. Their in-depth
                     knowledge and experience enable us to develop successful personalised academic and career
                     plans for students, maximising their chances of admission to top universities worldwide.
-                    Our team of experienced consultants with their diverse backgrounds and expertise offers a
-                    unique offering to students worldwide.
+                    Our team of experienced consultants with their diverse backgrounds and expertise offers a 
+                    unique service to students worldwide.
                 </p>
             </div>
         </div>

@@ -21,11 +21,13 @@
                 <h4>CEO & Educator (DE, EN, ES)</h4>
             </div>
             <div>
-                <p>I am the founder of Berndt Education. I am originally from Germany and have a B.A. 
+                <p>
+                    I am the founder of Berndt Education. I am originally from Germany and have a B.A. 
                     in Technical Translation and an M.A. from Texas Tech University in German Literature & Language 
                     with a minor in Spanish Literature. I have specialized in language education, school, and education 
                     program management as well as curriculum development for language and for children with cochlear implants 
-                    collaborating with the high-end facilities and staff at Sada Educational Center in Kuwait.</p>
+                    collaborating with the high-end facilities and staff at Sada Educational Center in Kuwait.
+                </p>
             </div>
         </div>
     </div>
