@@ -13,12 +13,12 @@
             </div>-->
             <div>
                 <a href="https://m.facebook.com/Berndt-Education-105991241926914/"  class="social">
-                    <img id="facebook" src="./img/icons/facebook.png" alt="Facebook"> 
+                    <img id="facebook" src="../img/icons/facebook.png" alt="Facebook"> 
                 </a>
             </div>
             <div>
                 <a href="https://www.instagram.com/berndteducation/"  class="social">
-                    <img id="instagram" src="./img/icons/instagram.png" alt="Instagram">
+                    <img id="instagram" src="../img/icons/instagram.png" alt="Instagram">
                 </a>
             </div>
         </div>
