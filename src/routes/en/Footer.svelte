@@ -13,12 +13,12 @@
             </div>-->
             <div>
                 <a href="https://m.facebook.com/Berndt-Education-105991241926914/"  class="social">
-                    <img id="facebook" src="../img/icons/facebook.png" alt="Facebook"> 
+                    <img id="facebook" src="./img/icons/facebook.png" alt="Facebook"> 
                 </a>
             </div>
             <div>
                 <a href="https://www.instagram.com/berndteducation/"  class="social">
-                    <img id="instagram" src="../img/icons/instagram.png" alt="Instagram">
+                    <img id="instagram" src="./img/icons/instagram.png" alt="Instagram">
                 </a>
             </div>
         </div>
@@ -29,25 +29,32 @@
         </div>
         <div class="address-container">
             <address>
-                <span>Berndt Education
+                <span>
+                    Berndt Education
                     <br>
                     Calle Barcenillas 8
                     <br>
                     29012, Malaga
                     <br>
                     Spain
-                    <div>
-                        <p><a itemprop="email" href="mailto:info@berndteducation.com" class="svelte-1j5i9np">info@berndteducation.com</a></p>
-                        <p><a href="tel:+34622511921">+34622511921</a></p>
-                        <p><a href="tel:+447922489668">+447922489668</a></p>
-                        <!-- <p><a href="/">Imprint</a></p>
-                        <p><a href="/">Terms of Usage</a></p> -->
-                        <p><a href="/en/privacy-policy">Privacy Policy</a></p>
-                        <!-- <p><a href="/">FAQ</a></p> -->
-                        <br/>
-                        <p>Copyright © {currentYear} - Berndt Education</p>
-                    </div>
                 </span>
+                <span>
+                    Berndt Education
+                    <br>
+                    7 Bell Yard
+                    <br>
+                    London WC2A 2JR
+                    <br>
+                    United Kingdom
+                </span>
+                <div>
+                    <p><a itemprop="email" href="mailto:info@berndteducation.com" class="svelte-1j5i9np">info@berndteducation.com</a></p>
+                    <p><a href="tel:+34622511921">+34622511921</a></p>
+                    <p><a href="tel:+442038852772">+442038852772</a></p>
+                    <p><a href="/privacy-policy">Privacy Policy</a></p>
+                    <br/>
+                    <p>Copyright © {currentYear} - Berndt Education</p>
+                </div>
             </address>
         </div>
     </footer>
@@ -64,6 +71,8 @@ footer {
     text-align: center;
     padding: 0;
     justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .contact {
@@ -189,11 +198,17 @@ footer {
 
 
     .address-container {
-        margin: 40px 40px 40px 0px ;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0px;
+        padding: 0px 20px;
     }
 
     .address-container > address {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
         font-size: 8px;
     }
 
@@ -203,20 +218,21 @@ footer {
         font-size: 10px;
     }
 
-    address > span > div > p {
+    address > div > p {
         font-size: 10px;
         font-style: none;
+        text-align: left;
     }
 
-    address > span > div > p > a {
+    address > div > p > a {
         font-style: normal;
     }
 
-    address > span > div > p:nth-child(4) {
+    address > div > p:nth-child(4) {
         margin-top: 10px !important;
     }
 
-    address > span > div > p:hover > a {
+    address > div > p:hover > a {
         color: #d6b18c;
     }
 

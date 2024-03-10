@@ -40,13 +40,21 @@
                         29012, Malaga
                         <br>
                         España
-                        <div>
-                        <div class="info">
-                            <p><a itemprop="email" href="mailto:info@berndteducation.com">info@berndteducation.com</a></p>
-                            <p><a href="tel:+34631896435">+34 631896435</a></p>
-                            <p><a href="tel:+447922489668">+447922489668</a></p>
-                        </div>
                     </span>
+                    <span>
+                        Berndt Education
+                        <br>
+                        7 Bell Yard
+                        <br>
+                        London WC2A 2JR
+                        <br>
+                        Reino Unido
+                    </span>
+                    <div class="info">
+                        <p><a itemprop="email" href="mailto:info@berndteducation.com">info@berndteducation.com</a></p>
+                        <p><a href="tel:+34631896435">+34 631896435</a></p>
+                        <p><a href="tel:+442038852772">+442038852772</a></p>
+                    </div>
                 </address>
             </div>
             <Form />
@@ -164,12 +172,16 @@
     }
 
     address {
-        text-align: left;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: auto auto;
+        text-align: center;
         margin-top: 0px;
+        max-height: 200px;
     }
 
     address > span {
-        text-align: left; 
+        text-align: center; 
         display: grid;
         width: 185px;
     }
@@ -188,6 +200,7 @@
 
     .info {
         padding: 10px 0px 0px 0px;
+        grid-column: 1/3;
     }
 
     .info > p > a:hover  {
