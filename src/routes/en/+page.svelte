@@ -744,13 +744,13 @@
     @media (min-width: 1000px) and (max-width: 1329px) {
     
         #main-logo {
-        position: absolute;
-        scale: 0.4 !important;
-        left: 400px !important;
-        top: 350px;
-        z-index: 1;
-        opacity: 0.3;
-     }
+            position: absolute;
+            scale: .4 !important;
+            top: 0px;
+            z-index: 1;
+            opacity: .1;
+            width: 100%;
+        }
     }
     
     @media (max-width: 999px) {
