@@ -1,18 +1,18 @@
 
 <svelte:head>
-    <title>Berndt Education</title>
+    <title>Berndt Education: Personalized Language Courses for You</title>
     <link rel="icon" href="/favicon.png" />
-    <meta name="description" content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch.">
-    <meta name="keywords" content="language, education, courses, learn">
+    <meta name="description" content="Personalized language courses in German, English, Spanish and french. Tailored to your needs for effective learning.">
+    <meta name="keywords" content="language, education, courses, learn, online, english, german, french, spanish, personalized, virtual classes, zoom">
     <link rel="icon" type="image/png" href="./img/icons/Wordpress.png">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
 
-    <meta property="og:title" content="Berndt Education" />
+    <meta property="og:title" content="Berndt Education: Personalized Language Courses for You" />
     <meta property="og:image" content="img/icons/Wordpress.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://berndteducation.com" />
-    <meta property="og:site_name" content="Berndt Education" />
-    <meta property=“og:description“ content="Customized language courses, curricula & language solutions in German, English, Spanish and Dutch." />
+    <meta property="og:site_name" content="Berndt Education: Personalized Language Courses for You" />
+    <meta property=“og:description“ content="Personalized language courses in German, English, Spanish and french. Tailored to your needs for effective learning." />
     <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
 </svelte:head>
 
@@ -54,14 +54,13 @@
     
             <div class="landing-page-info">
               <div>
-                <h2>EDUCATION OPENS DOORS</h2>
+                <h1>BERNDT EDUCATION: Your Gateway to Exceptional Online Language Courses</h1>
               </div>
               <div><img id="main-logo" src="./img/icons/Wordpress Transparent.png" alt="Main Logo"></div>
-                <h3 id="descr-1">With Berndt Education you will think wider and further ahead</h3>
-                <p id="descr-2">Berndt Education offers personalized language courses for businesses and 
-                    individuals by creating the ideal conditions for you to learn your desired language 
-                    as quickly and effectively as possible. Professional educators will create a tailor-made 
-                    programme that suits your work-life balance and leaves you smarter than before after every session.</p>
+                <h2 id="descr-1">Unlock Language Mastery with Berndt Education Personalized Classes</h2>
+                <p id="descr-2">At Berndt Education, we offer personalized language courses one to one learning and group classes for companies by creating the ideal conditions for you to learn 
+                    your desired language as quickly and effectively as possible.  Professional educators will create a tailor-made program that suits your work-life  balance and leaves you smarter than before after every session. With our innovative approach, enjoy flexibility and convenience with online 24/7 access. 
+                   Practice speaking Spanish, French, German, and more with our expert instructors. Start today and discover the joy of mastering languages with Berndt Education.</p>
             </div>
 
           <!--<div class="first-area">
@@ -80,11 +79,13 @@
         
         <section class="sub-section">
             <div class="information">
-                <h2>BE ACTIVE LEARNING SYSTEM</h2>
-                <h3 id="sub1">The method for successful learning</h3>
-                <p>With Berndt Education, you or your company benefits from an engaging learning concept which exploits 
-                    interconnectedness via media in conjunction with classic learning methods. The BE Educators are specialised 
-                    in neuro-linguistic strategies to make your learning experience immersive and retention of material permanent.</p>
+                <h1>BE ACTIVE LEARNING SYSTEM</h1>
+                <h2 id="sub1">The method for successful learning</h2>
+                <p>At Berndt Education, you or your company benefit from an 
+                    engaging learning concept that leverages interconnectedness via media alongside classic
+                    learning methods. Our educators specialize in neuro-linguistic strategies, ensuring that your online
+                    language courses are immersive and that material retention is permanent.
+                </p>
             </div>
 
         </section>
