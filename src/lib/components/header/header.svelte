@@ -22,38 +22,6 @@
 
 <style>
 
-    /*---------- Header ----------------------------------------------------------*/
-
-/*---------- Header MQ ----------------------------------------------------------*/
-@media (min-width: 100px) and (max-width: 450px) {
-
-header {
-    display: none !important;
-}
-
-/*header > div > div {
-    display: block;
-}
-
-body > header > div > div> p > a {
-    font-size: 5px;
-}
-
-body > header > div > div> p > a:hover {
-    font-size: 5px;
-}
-
-body > header > div > div > p {
-    font-size: 5px;
-}*/
-}
-
-@media (min-width: 270px) and (max-width: 470px) {
-
-}
-
-/*---------- Header MQ End----------------------------------------------------------*/
-
 header {
     display: flex;
     justify-content: space-evenly;
@@ -103,6 +71,11 @@ header > div > div > p > a {
     color: white;
 }
 
-/*---------- Header End ----------------------------------------------------------*/
+@media (min-width: 100px) and (max-width: 450px) {
+
+    header {
+        display: none !important;
+    }
+}
 
 </style>

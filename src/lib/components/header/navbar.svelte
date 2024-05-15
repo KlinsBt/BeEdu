@@ -1,8 +1,6 @@
 <script>
 
-import { fade, blur, fly, slide, scale } from "svelte/transition";
-// import { quintOut } from "svelte/easing";
-// import { transition_in } from "svelte/internal";
+import { slide } from "svelte/transition";
 import "./styles.css";
 
 /////////////// Language Container ///////////////////////////////////////
@@ -10,26 +8,26 @@ import "./styles.css";
 let showLang = false; 
 
 const toggleLang = () => {
-  if (!showLang) {
+    if (!showLang) {
     showLang = true
-  } 
-  else {
+    } 
+    else {
     showLang = false
-  }
+    }
 }
 
 let lng = 0
 
 const languages = [
-  {name: "ENG", flag: "./img/flags/us.png", link: "/en", id: 0},
-  {name: "GER", flag: "./img/flags/ger.png", link: "/ger", id: 1},
-  {name: "ESP", flag: "./img/flags/esp.png", link: "/esp", id: 2},
-  // {name: "UKR", flag: "../img/flags/ukr.png", link: "/", id: 3},
-  // {name: "ARA", flag: "../img/flags/ara.png", link: "/", id: 4},
+    {name: "ENG", flag: "./img/flags/us.png", link: "/en", id: 0},
+    {name: "GER", flag: "./img/flags/ger.png", link: "/ger", id: 1},
+    {name: "ESP", flag: "./img/flags/esp.png", link: "/esp", id: 2},
+    // {name: "UKR", flag: "../img/flags/ukr.png", link: "/", id: 3},
+    // {name: "ARA", flag: "../img/flags/ara.png", link: "/", id: 4},
 ]
     
 const selectLanguage = (id) => {
-  lng = id
+    lng = id
 }
 
 /////////////// Language Container End ///////////////////////////////////
@@ -50,16 +48,16 @@ let menuDiv = "menu-section"
 let col = "col-list-hidden"
 
 const toggleMenu = () => {
-  if (menuBar === "menu-btn") {
+    if (menuBar === "menu-btn") {
     menuBar = "menu-btn open"
     menuDiv = "" + "ms-open"
     col = "col-list"
-  }
-  else {
+    }
+    else {
     menuBar = "menu-btn"
     menuDiv = "" + "menu-section"
     col = "col-list-hidden"
-  }
+    }
 }
 
 /////////////// Collapsed Menu End ///////////////////////////////////////
@@ -81,28 +79,28 @@ let y
 
 const stickToTop = () => {
     if (y > 20) {
-      navbar = "sticky"
-      menuDivSticky = "sticky-2"
+        navbar = "sticky"
+        menuDivSticky = "sticky-2"
     }
     else {
-      navbar = ""
-      menuDivSticky = ""
+        navbar = ""
+        menuDivSticky = ""
     }
 }
 
 /////////////// Scroll Detection End ///////////////////////////////////////
-
+    
 </script>
 
 <svelte:window on:scroll={stickToTop} bind:scrollY={y} />
-
+    
 <main>
-	<nav class="{navbar}">
+    <nav class="{navbar}">
 
         <div class="nav-container-left">
-          <div class="logo-container">
+            <div class="logo-container">
             <img class="logo" src="../img/icons/Wordpress Transparent.png" alt="Berndt Education">
-          </div>
+            </div>
             <p class="logo-text">Berndt Education</p>
         </div>
 
@@ -110,16 +108,16 @@ const stickToTop = () => {
             <ul id="nav-list">
                 <li><a href="/">Home</a></li>
                 <li><a href="/courses">BE Courses</a>
-                  <ul class="dropdown">
+                    <ul class="dropdown">
                     <li><a href="/education-travel">Education Travel</a>
-                  </ul>
+                    </ul>
                 </li>
                 <li><a href="/corporate">Corporate Clients</a>
-                  <ul class="dropdown">
+                    <ul class="dropdown">
                     <li><a href="/coming-soon">Translation</a></li>
                     <li><a href="/coming-soon">Interpretation</a></li>
                     <li><a href="/coming-soon">Company Courses</a></li>
-                  </ul>
+                    </ul>
                 </li>
                 <li><a href="/uni-admissions">University Admissions</a></li>
                 <li><a href="/about-us">About Us</a></li>
@@ -128,176 +126,176 @@ const stickToTop = () => {
 
     <!---------- Collapsed Menu 1 -------------->
 
-          <div on:click={toggleMenu} class={menuBar}>
+            <div on:click={toggleMenu} class={menuBar}>
             <div class="menu-btn__burger"></div>
-          </div>
+            </div>
 
     <!---------- Collapsed Menu 1 End ---------->
 
         </div>
         <div class="nav-container-right">
-          <div id="select-language" on:click={toggleLang}>
-              <img id="flag" src={languages[lng].flag} alt="">
-              <p id="selected-language">{languages[lng].name}</p>
-          </div>
-          {#if showLang}
-          <ul id="language-container">
+            <div id="select-language" on:click={toggleLang}>
+                <img id="flag" src={languages[lng].flag} alt="">
+                <p id="selected-language">{languages[lng].name}</p>
+            </div>
+            {#if showLang}
+            <ul id="language-container">
             {#each languages as language (language.id)}
-              <a data-sveltekit-reload href="{language.link}" on:click={() => selectLanguage(language.id)} on:click={toggleLang}><li>{language.name}</li></a>
+                <a data-sveltekit-reload href="{language.link}" on:click={() => selectLanguage(language.id)} on:click={toggleLang}><li>{language.name}</li></a>
             {/each}
-          </ul>
-          {/if}
+            </ul>
+            {/if}
         </div>
 
-      </nav>
+        </nav>
 
     <!---------- Collapsed Menu 2 ------------->
     {#if menuDiv == "ms-open"}
-      <section transition:slide={{duration: 300}} class="{menuDiv} {menuDivSticky}">
+        <section transition:slide={{duration: 300}} class="{menuDiv} {menuDivSticky}">
 
         <ul id={col} transition:slide={{duration: 300}}>
-          <li on:click={toggleMenu}><a href="/">Home</a></li>
-          <li on:click={toggleMenu}><a href="/courses">BE Courses</a></li>
-          <div on:click={toggleMenu} class="dropdown-uni-admissions">
+            <li on:click={toggleMenu}><a href="/">Home</a></li>
+            <li on:click={toggleMenu}><a href="/courses">BE Courses</a></li>
+            <div on:click={toggleMenu} class="dropdown-uni-admissions">
             <a href="/education-travel">Education Travel</a>
-          </div>
-          <li on:click={toggleMenu}><a href="/corporate">Corporate Clients</a></li>
-          <div class="dropdown-corporate-clients">
+            </div>
+            <li on:click={toggleMenu}><a href="/corporate">Corporate Clients</a></li>
+            <div class="dropdown-corporate-clients">
             <a href="/coming-soon">Translation</a>
             <a href="/coming-soon">Interpretation</a>
             <a href="/coming-soon">Company Courses</a>
-          </div>
-          <li on:click={toggleMenu}><a href="/uni-admissions">University Admissions</a></li>
-          <li on:click={toggleMenu}><a href="/about-us">About Us</a></li>
-          <li on:click={toggleMenu}><a href="/contact">Contact</a></li>
+            </div>
+            <li on:click={toggleMenu}><a href="/uni-admissions">University Admissions</a></li>
+            <li on:click={toggleMenu}><a href="/about-us">About Us</a></li>
+            <li on:click={toggleMenu}><a href="/contact">Contact</a></li>
         </ul> 
 
         <div class="nav-container-collapsed">
-          <div id="select-language" on:click={toggleLang}>
-              <img id="flag" src={languages[lng].flag} alt="">
-              <p id="selected-language">{languages[lng].name}</p>
-          </div>
-          {#if showLang}
-          <ul id="language-container">
+            <div id="select-language" on:click={toggleLang}>
+                <img id="flag" src={languages[lng].flag} alt="">
+                <p id="selected-language">{languages[lng].name}</p>
+            </div>
+            {#if showLang}
+            <ul id="language-container">
             {#each languages as language (language.id)}
-              <a data-sveltekit-reload href="{language.link}" on:click={() => selectLanguage(language.id)} on:click={toggleLang}><li>{language.name}</li></a>
+                <a data-sveltekit-reload href="{language.link}" on:click={() => selectLanguage(language.id)} on:click={toggleLang}><li>{language.name}</li></a>
             {/each}
-          </ul>
-          {/if}
+            </ul>
+            {/if}
         </div>
-      </section>
+        </section>
     {/if}
     <!---------- Collapsed Menu 2 End ---------->
 
 </main>
-
+    
 <style>
 
 /*---------- Navigation Bar ------------------------------------------------------*/
 
 @media (min-width: 100px) and (max-width: 270px) {
 
-  nav {
-      display: flex;
-      justify-content: center !important;
-  }
+    nav {
+        display: flex;
+        justify-content: center !important;
+    }
 
-  .nav-container-left {
-      display: none !important;
-  }
+    .nav-container-left {
+        display: none !important;
+    }
 
-  .nav-container-right {
-      display: none !important;
-  }    
+    .nav-container-right {
+        display: none !important;
+    }    
 }
 
 @media (min-width: 270px) and (max-width: 470px) {
 
-  nav {
-      display: flex;
-      justify-content: center !important;
-  }
+    nav {
+        display: flex;
+        justify-content: center !important;
+    }
 
-  .nav-container-left {
-      display: none !important;
-  }
+    .nav-container-left {
+        display: none !important;
+    }
 
-  .nav-container-right {
-      display: none !important;
-  }  
+    .nav-container-right {
+        display: none !important;
+    }  
 
-  .nav-container-collapsed {
+    .nav-container-collapsed {
     display: inline-block !important;
-  }
+    }
 }
 
-  @media only screen and (min-width: 800px) {
-  .menu-section {
-      display: none !important;
-  } 
+    @media only screen and (min-width: 800px) {
+    .menu-section {
+        display: none !important;
+    } 
 }
 
 @media only screen and (min-width: 471px) and (max-width: 541px) {
 
-  nav {
-      display: flex;
-  }
+    nav {
+        display: flex;
+    }
 
-  .nav-container-left > p {
+    .nav-container-left > p {
     visibility: hidden !important;
-  }
- 
+    }
+    
 }
 
 /*----------------------------------------------------------------*/
 
 nav {
 /*background-color: #1c1d25;*/
-  background-color: #d6b18c;
-  display: flex;
-  justify-content: space-between;
-  height: 100px;
-  border-bottom: 1px solid white;
-  z-index: 3;
+    background-color: #d6b18c;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid white;
+    z-index: 3;
 }
 
 #nav-list > li:nth-child(3) {
-  overflow: hidden;
-  z-index: 4;
+    overflow: hidden;
+    z-index: 4;
 }
 
 #nav-list > li > .dropdown {
-  display: grid;
-  /* max-width: 120px !important; */
-  justify-items: left;
-  align-items: center;
-  text-align: center;
-  background: #d6b18c;
-  z-index: 7;
-  padding: 0px;
-  height: 0px;
-  transition: 0.4s !important;
-  border-radius: 15px 0px 15px 0px;
-  overflow: hidden;
-  position: absolute;
+    display: grid;
+    /* max-width: 120px !important; */
+    justify-items: left;
+    align-items: center;
+    text-align: center;
+    background: #d6b18c;
+    z-index: 7;
+    padding: 0px;
+    height: 0px;
+    transition: 0.4s !important;
+    border-radius: 15px 0px 15px 0px;
+    overflow: hidden;
+    position: absolute;
 }
 
 #nav-list > li > .dropdown {
-  text-decoration: none;
-  list-style: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 .dropdown > li {
-  position: relative;
-  transition: 0.4s !important;
-  display: none;
+    position: relative;
+    transition: 0.4s !important;
+    display: none;
 }
 
 .dropdown > li > a {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 500;
-  transition: 0.4s !important;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.4s !important;
 }
 
 #nav-list > li:nth-child(2) > a:hover + .dropdown {
@@ -364,37 +362,37 @@ nav {
 
 
 .dropdown-uni-admissions {
-  display: grid;
-  justify-items: left;
+    display: grid;
+    justify-items: left;
 }
 
 .dropdown-uni-admissions > a {
-  margin: 0px 0px 0px 25px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #000000;
-  transition: 0.1s;
+    margin: 0px 0px 0px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    transition: 0.1s;
 }
 
 .dropdown-uni-admissions > a:hover {
-  color: white; 
+    color: white; 
 }
 
 .dropdown-corporate-clients {
-  display: grid;
-  justify-items: left;
+    display: grid;
+    justify-items: left;
 }
 
 .dropdown-corporate-clients > a {
-  margin: 0px 0px 0px 25px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #000000;
-  transition: 0.1s;
+    margin: 0px 0px 0px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    transition: 0.1s;
 }
 
 .dropdown-corporate-clients > a:hover {
-  color: white; 
+    color: white; 
 }
 
 
@@ -402,88 +400,88 @@ nav {
 
 
 .sticky {
-  position: fixed !important;
-  top: 0 !important;
-  width: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
 }
 
 .sticky-2 {
-  position: fixed !important;
-  top: 88px !important;
-  width: 100% !important;
+    position: fixed !important;
+    top: 88px !important;
+    width: 100% !important;
 }
 
 
 
 .nav-container-left, .nav-container-middle, .nav-container-right {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-container-left {
-  padding: 0px 0px 10px 15px;
+    padding: 0px 0px 10px 15px;
 }
 
 .logo-container {
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  margin: 15px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  overflow: hidden;
-  height: 60px;
-  width: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
 }
 
 .logo {
-  height: 55px;
-  margin: 2px 0px 0px 6px;
+    height: 55px;
+    margin: 2px 0px 0px 6px;
 }
 
 .logo-text {
-  font-size: 12px;
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  margin-top: -15px;
-  }
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin-top: -15px;
+    }
 
 /*---------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 600px) {
 
-  .menu-section {
-      display: none;
-  }
+    .menu-section {
+        display: none;
+    }
 
-  .ms-open {
-      /*display: none;*/
-      height: 240px;
-      padding: 20px 0px 5px 0px;
-  }
+    .ms-open {
+        /*display: none;*/
+        height: 240px;
+        padding: 20px 0px 5px 0px;
+    }
 
-  .nav-container-middle {
-      padding-top: 20px;
+    .nav-container-middle {
+        padding-top: 20px;
 
-  }
+    }
 
-  .nav-container-middle > ul {
-      display: flex;
-      list-style-type: none;
-      width: 900px;
-      justify-content: space-around;
-      font-size: 18px;
-      margin-left: -70px;
-  }
+    .nav-container-middle > ul {
+        display: flex;
+        list-style-type: none;
+        width: 900px;
+        justify-content: space-around;
+        font-size: 18px;
+        margin-left: -70px;
+    }
 
-  #nav-list > li > a {
-      color: black;
-      font-weight: 500;
-  }
+    #nav-list > li > a {
+        color: black;
+        font-weight: 500;
+    }
 
-  #nav-list > li > a:hover {
-      color: #ffffff;
-  }
+    #nav-list > li > a:hover {
+        color: #ffffff;
+    }
 
 }
 
@@ -565,29 +563,29 @@ background-color: rgba(134, 134, 134, 0.8);
 
 @media only screen and (max-width: 1170px) {
 
-  #nav-list {
-      display: none;
-  }
+    #nav-list {
+        display: none;
+    }
     
-  /*@keyframes expand {
+    /*@keyframes expand {
     from {height: 0px;}
     to {height: 150px;}
-  }
+    }
 
-  @keyframes collapse {
+    @keyframes collapse {
     from {height: 150px;}
     to {height: 0px;}
-  }
+    }
 
-  @keyframes shrink {
+    @keyframes shrink {
     from {height: 23px;}
     to {height: 0px;}
-  }
+    }
 
-  @keyframes grow {
+    @keyframes grow {
     from {font-size: 0px;}
     to {font-size: 23px;}
-  }*/
+    }*/
 
 /*---------- Collapsed Navigation Keyframes End ------------------------------------------------------*/
 
@@ -636,10 +634,10 @@ background-color: rgba(134, 134, 134, 0.8);
 }
 
 .nav-container-collapsed {
-  position: absolute;
-  top: 0px;
-  left: 40%;
-  display: none;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    display: none;
 }
 
 .menu-btn {
@@ -652,30 +650,30 @@ background-color: rgba(134, 134, 134, 0.8);
     cursor: pointer;
     transition: all .5s ease-in-out;
     /* border: 3px solid #fff; */
-  }
+    }
 
-  .menu-btn:hover .menu-btn__burger {
+    .menu-btn:hover .menu-btn__burger {
     background-color: #ffffff
-  }
+    }
 
-  .menu-btn:hover .menu-btn__burger::before {
+    .menu-btn:hover .menu-btn__burger::before {
     background-color: #ffffff
-  }
+    }
 
-  .menu-btn:hover .menu-btn__burger::after {
+    .menu-btn:hover .menu-btn__burger::after {
     background-color: #ffffff
-  }
+    }
 
-  .menu-btn__burger {
+    .menu-btn__burger {
     width: 50px;
     height: 6px;
     background: rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
-  }
-  .menu-btn__burger::before,
-  .menu-btn__burger::after {
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
     content: "";
     position: absolute;
     width: 50px;
@@ -684,32 +682,32 @@ background-color: rgba(134, 134, 134, 0.8);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
-  }
-  .menu-btn__burger::before {
+    }
+    .menu-btn__burger::before {
     transform: translateY(-16px);
-  }
-  .menu-btn__burger::after {
+    }
+    .menu-btn__burger::after {
     transform: translateY(16px);
-  }
-  
-  .menu-btn.open .menu-btn__burger {
+    }
+    
+    .menu-btn.open .menu-btn__burger {
     transform: translateX(-50px);
     background: transparent;
     box-shadow: none;
-  }
-  .menu-btn.open .menu-btn__burger::before {
+    }
+    .menu-btn.open .menu-btn__burger::before {
     transform: rotate(45deg) translate(35px, -35px);
-  }
-  .menu-btn.open .menu-btn__burger::after {
+    }
+    .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
-  }
+    }
 
 }
 
 
 @media only screen and (max-width: 450px) {
 
-  nav {
+    nav {
     /*background-color: #1c1d25;*/
     display: flex;
     justify-content: space-between;
@@ -717,33 +715,33 @@ background-color: rgba(134, 134, 134, 0.8);
     position: fixed !important;
     top: 0 !important;
     width: 100% !important;
-  }
+    }
 
-  .ms-open {
+    .ms-open {
     /*animation: expand 0.5s ease !important;*/
     position: fixed !important;
     top: 80px !important;
     width: 100% !important;
     padding: 15px 0px 5px 0px;
     height: 250px;
-  }
+    }
 
-  .menu-section {
+    .menu-section {
     display: flex !important;
     top: 0 !important;
     height: 0vh;
     background-color: #d6b18c;
     color: rgb(0, 0, 0);
     /*animation: expand 0.5s ease !important;*/
-  }
+    }
 
-  .nav-container-collapsed {
+    .nav-container-collapsed {
     display: inline-block !important;
-  }
+    }
 
 }
 
 
 /*---------- Collapsed Navigation Bar End---------------------------------------------------*/
-
-</style>
+    
+    </style>
