@@ -1,81 +1,261 @@
 <script>
+import TopInfo from "./components/top-info.svelte";
+import CollapsedMenu from "./components/collapsed-menu.svelte";
+import Languages from "./components/languages.svelte";
+import Logo from "../../images/icons/Wordpress Transparent.png";
+
+let y = 0;
+export let currentLanguage = 0;
+export let mail_us = "";
+export let call_us = "";
+export let link1_text = "";
+export let link1 = "";
+export let link2_text = "";
+export let link2 = "";
+export let sublink2_text_1 = "";
+export let sublink2_1 = "";
+export let link3_text = "";
+export let link3 = "";
+export let sublink3_text_1 = "";
+export let sublink3_1 = "";
+export let sublink3_text_2 = "";
+export let sublink3_2 = "";
+export let sublink3_text_3 = "";
+export let sublink3_3 = ""; 
+export let link4_text = "";
+export let link4 = "";
+export let link5_text = "";
+export let link5 = "";
+export let link6_text = "";
+export let link6 = "";
+export let link7_text = "";
+export let link7 = "";
 
 </script>
 
-<main>
 
-    <header>
-        <div>
-          <div>
-            <p>Mail Us:</p>
-            <p><a itemprop="email" href="mailto:info@berndteducation.com">info@berndteducation.com</a></p>
-          </div>
-          <div>
-            <p>Call Us:</p>
-            <p><a href="tel:+34622511921">+34622511921</a></p>
-            <p><a href="tel:+442038852772">+442038852772</a></p>
-          </div>
+
+
+
+<svelte:window bind:scrollY={y} />
+
+<header>
+
+    {#if y <= 20}
+    <TopInfo 
+        mail_us={mail_us}
+        call_us={call_us}
+    />
+    {/if}
+
+    <nav>
+
+        <div class="nav-container-left">
+            <div class="logo-container">
+                <img class="logo" src={Logo} alt="Berndt Education">
+            </div>
+            <p class="logo-text">Berndt Education</p>
         </div>
-    </header>
+    
+        <div class="collapsed-menu-container">
+            <CollapsedMenu 
+                link1_text={link1_text}
+                link1={link1}
+                link2_text={link2_text}
+                link2={link2}
+                sublink2_text_1={sublink2_text_1} 
+                sublink2_1={sublink2_1} 
+                link3_text={link3_text}
+                link3={link3}
+                sublink3_text_1={sublink3_text_1}
+                sublink3_1={sublink3_1}
+                sublink3_text_2={sublink3_text_2}
+                sublink3_2={sublink3_2}
+                sublink3_text_3={sublink3_text_3}
+                sublink3_3={sublink3_3}
+                link4_text={link4_text}
+                link4={link4}
+                link5_text={link5_text} 
+                link5={link5}
+                link6_text={link6_text}
+                link6={link6} 
+                link7_text={link7_text}
+                link7={link7} 
+            />
+        </div>
 
-</main>
+        <div class="nav-container-middle">
+            <div class="link-container">
+                <a href={link1}>{link1_text}</a>
+            </div>
+            <div class="link-container">
+                <a href={link2}>{link2_text}</a>
+                <div class="dropdown">
+                    <a href={sublink2_1}>{sublink2_text_1}</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <a href={link3}>{link3_text}</a>
+                <div class="dropdown">
+                    <a href={sublink3_1}>{sublink3_text_1}</a>
+                    <a href={sublink3_2}>{sublink3_text_2}</a>
+                    <a href={sublink3_3}>{sublink3_text_3}</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <a href={link4}>{link4_text}</a>
+            </div>
+            <div class="link-container">
+                <a href={link5}>{link5_text}</a>
+            </div>
+            <div class="link-container">
+                <a href={link6}>{link6_text}</a>
+            </div>
+            <div class="link-container">
+                <a href={link7}>{link7_text}</a>
+            </div>
+        </div>
+    
+        <Languages 
+            lng={currentLanguage}
+        />
+    
+    </nav>
+    
+</header>
+
+<div class="separator"></div>
+
+
+
+
 
 <style>
 
+.separator {
+    height: 100px;
+}
+
 header {
-    display: flex;
-    justify-content: space-evenly;
+    position: fixed;
+    display: grid;
     background-color: #1c1d25;
-    height: 2vh;
-    padding: 10px 0px 5px 10px;
-    border-bottom: solid 0.5px white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    z-index: 5;
 }
 
-header > div > div:nth-child(1) > p:nth-child(1) {
-    margin-right: 5px;
+nav {
+    background-color: var(--brand-color-2);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    border-bottom: 1px solid white;
 }
 
-header > div > div:nth-child(2) > p:nth-child(1) {
-    margin-right: 5px;
+.nav-container-left {
+    padding-left: 20px;
 }
 
-header > div > div:nth-child(1) > p:nth-child(2) > a {
-    margin-right: 20px;
-}
-
-header > div > div:nth-child(2) > p:nth-child(2) > a {
-    margin-right: 5px;
-}
-
-header > div {
+.logo-container {
     display: flex;
     justify-content: center;
+    padding: 0px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
 }
 
-header > div > div {
+.logo {
+    height: 55px;
+    margin: 2px 0px 0px 6px;
+}
+
+.logo-text {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.nav-container-middle {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 20px;
 }
 
-header > div > div > p {
-    font-size: 10px;
+.link-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+a {
+    color: var(--brand-color-1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.1s linear;
+    z-index: 2;
+}
+
+a:hover {
     color: white;
 }
 
-header > div > div > p > a:hover {
-    font-size: 10px;
-    color: #d6b18c;
-}
-
-header > div > div > p > a {
-    font-size: 10px;
+.link-container:hover > .dropdown {
     color: white;
+    height: auto;
+    padding: 10px 0px 10px 10px;
 }
 
-@media (min-width: 100px) and (max-width: 450px) {
+.dropdown {
+    overflow: hidden;
+    position: absolute;
+    height: 0%;
+    padding: 0px;
+    top: 20px;
+    padding: 0px;
+    background-color: var(--brand-color-2);
+    transition: all 0.1s linear;
+}
 
-    header {
-        display: none !important;
+.dropdown > a {
+    font-size: 15px;
+}
+
+.collapsed-menu-container {
+    display: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1170px) {
+    .nav-container-middle {
+        display: none;
     }
+
+    .collapsed-menu-container {
+        display: grid;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 470px) {
+
+    .nav-container-left {
+        display: none;
+    }  
+
 }
 
 </style>
