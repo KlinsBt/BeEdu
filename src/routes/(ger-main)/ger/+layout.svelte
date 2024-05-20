@@ -11,6 +11,27 @@
 
 
 
+
+
+
+
+
+<svelte:head>
+    <title>Berndt Education: Personalisierte Sprachkurse für Sie</title>
+    <link rel="icon" href="/favicon.png" />
+    <meta name="description" content="Personalisierte Sprachkurse in Deutsch, Englisch, Spanisch und Französisch. Maßgeschneidert auf Ihre Bedürfnisse für effektives Lernen.">
+    <meta name="keywords" content="sprache, bildung, kurse, lernen, online, englisch, deutsch, französisch, spanisch, personalisiert, virtuelle klassen, zoom">
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <meta property="og:title" content="Berndt Education: Personalisierte Sprachkurse für Sie" />
+    <meta property="og:image" content="/favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://berndteducation.com" />
+    <meta property="og:site_name" content="Berndt Education: Personalisierte Sprachkurse für Sie" />
+    <meta property=“og:description“ content="Personalisierte Sprachkurse in Deutsch, Englisch, Spanisch und Französisch. Maßgeschneidert auf Ihre Bedürfnisse für effektives Lernen." />
+    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
+</svelte:head>  
+
 <div class="app">
 	
 	<Header
@@ -54,6 +75,11 @@
 	/>
 
 </div>
+
+
+
+
+
 
 
 

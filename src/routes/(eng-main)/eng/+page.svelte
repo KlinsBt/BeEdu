@@ -8,21 +8,10 @@
 
 
 
-<svelte:head>
-    <title>Berndt Education: Personalized Language Courses for You</title>
-    <link rel="icon" href="/favicon.png" />
-    <meta name="description" content="Personalized language courses in German, English, Spanish and French. Tailored to your needs for effective learning.">
-    <meta name="keywords" content="language, education, courses, learn, online, english, german, french, spanish, personalized, virtual classes, zoom">
-    <link rel="icon" type="image/png" href="img/icons/Wordpress.png">
 
-    <meta property="og:title" content="Berndt Education: Personalized Language Courses for You" />
-    <meta property="og:image" content="img/icons/Wordpress.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://berndteducation.com" />
-    <meta property="og:site_name" content="Berndt Education: Personalized Language Courses for You" />
-    <meta property=“og:description“ content="Personalized language courses in German, English, Spanish and french. Tailored to your needs for effective learning." />
-    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
-</svelte:head>   
+
+
+ 
     
 <main>
     <TopSection 
@@ -71,6 +60,11 @@
         provided materials and therefore achieve maximum learning success."
     /> 
 </main>
+
+
+
+
+
 
 
 

@@ -11,6 +11,27 @@
 
 
 
+
+
+
+
+
+<svelte:head>
+    <title>Berndt Education: Cursos de idiomas personalizados para usted</title>
+    <link rel="icon" href="/favicon.png" />
+    <meta name="description" content="Cursos de idiomas personalizados en alemán, inglés, español y francés. Adaptados a sus necesidades para un aprendizaje eficaz.">
+    <meta name="keywords" content="idiomas, educación, cursos, aprender, online, inglés, alemán, francés, español, personalizado, clases virtuales, zoom">
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <meta property="og:title" content="Berndt Education: Cursos de idiomas personalizados para usted" />
+    <meta property="og:image" content="/favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://berndteducation.com" />
+    <meta property="og:site_name" content="Berndt Education: Cursos de idiomas personalizados para usted" />
+    <meta property=“og:description“ content="Cursos de idiomas personalizados en alemán, inglés, español y francés. Adaptados a sus necesidades para un aprendizaje eficaz." />
+    <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
+</svelte:head>   
+
 <div class="app">
 	
 	<Header
@@ -54,6 +75,11 @@
 	/>
 
 </div>
+
+
+
+
+
 
 
 
