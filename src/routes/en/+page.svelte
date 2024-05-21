@@ -2,7 +2,7 @@
 <svelte:head>
     <title>Berndt Education: Personalized Language Courses for You</title>
     <!-- <link rel="icon" href="../favicon.png" /> -->
-    <meta name="description" content="Personalized language courses in German, English, Spanish and french. Tailored to your needs for effective learning.">
+    <meta name="description" content="Explore personalized language courses in German, English, Spanish, and French at Berndt Education. Tailored to your needs for effective and engaging learning experiences.">
     <meta name="keywords" content="language, education, courses, learn, online, english, german, french, spanish, personalized, virtual classes, zoom">
     <link rel="icon" type="image/png" href="./img/icons/Wordpress.png">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
