@@ -15,13 +15,13 @@ import Form from "$lib/components/sub-sites/contact/form1.svelte";
     
 
 <div class="page-title-container"> 
-    <h1>Envíenos Su Consulta</h1>
+    <h1>Envíanos tu Consulta</h1>
     <h3>
-        Envíenos un mensaje para concertar una reunión de consulta gratis de 15 minutos.<br>
-        Estaremos encantados de ayudarle a alcanzar sus objetivos lingüísticos, desarrollar 
-        su currículo de aprendizaje y resolver cualquier reto que pueda tener en cuanto a 
-        soluciones lingüísticas, es decir, traducción e interpretación, así como cursos de 
-        oratoria y gestión en el idioma deseado.
+        Envíanos un mensaje para concertar una reunión de consulta gratis de 15 minutos.<br>
+        Estaremos encantados de ayudarte a alcanzar tus objetivos lingüísticos, desarrollar tu currículum de aprendizaje 
+        y resolver cualquier reto que puedas tener en cuanto a soluciones lingüísticas, es decir, traducción e interpretación, 
+        así como cursos de oratoria 
+        y gestión en el idioma deseado.
     </h3>
 </div>
 <div class="add-form">
@@ -30,10 +30,10 @@ import Form from "$lib/components/sub-sites/contact/form1.svelte";
         country2="Reino Unido"
     />
     <Form 
-        title="Escríbanos"
+        title="Escríbenos"
         enter_mail="Introduce tu correo electrónico"
         enter_name="Introduce tu nombre"
-        enter_message="Escriba aquí su mensaje"
+        enter_message="Escribe aquí tu mensaje"
         button="Enviar"
     />
 </div>

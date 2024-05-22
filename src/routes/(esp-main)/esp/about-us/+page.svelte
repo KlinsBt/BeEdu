@@ -16,36 +16,28 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
 <div class="main-container">
     <div class="page-title-container"> 
         <h1>El Team BE</h1>
-        <h3>Le ayudamos a alcanzar sus objetivos</h3>
+        <h3>Te ayudamos a alcanzar tus objetivos</h3>
     </div>
     <div class="employee-cards-container">
         <EmployeeCard 
             name="Denny Berndt" 
             title="CEO & Educador (DE, EN, ES)" 
-            description="Soy el fundador de Berndt Education. Soy originaria 
-            de Alemania y tengo un B.A. en Traducción Técnica y un máster de 
-            la Texas Tech University en Literatura y Lengua Alemana con 
-            especialización en literatura española. Me he especializado en 
-            la enseñanza de idiomas, la escuela y la educación gestión de 
-            programas, así como en el desarrollo de planes de estudio para 
-            el lenguaje y para niños con implantes cocleares colaborando con 
-            las instalaciones y el personal de alto nivel del Centro Educativo 
-            Sada de Kuwait." 
+            description="Soy el fundador de Berndt Education. Soy originario de Alemania y tengo un B.A. 
+            en Traducción Técnica y un máster de la Texas Tech University en Literatura y Lengua Alemana con especialización en 
+            literatura española. Me he especializado en la enseñanza de idiomas, la escuela y la educación gestión de programas, 
+            así como en el desarrollo de planes de estudio para el lenguaje y para niños con 
+            implantes cocleares colaborando con las instalaciones y el personal de alto nivel del Centro Educativo Sada de Kuwait." 
             src="../img/DennyProfile.jpg" 
         />
         <EmployeeCard 
             name="Anne-Sophie" 
             title="Educador (DE, FR)" 
-            description="Enseño alemán y francés a aficionados a los idiomas 
-            y soy traductora diplomada por el Instituto Francés de Traducción 
-            y Gestión Intercultural (ISIT). Después de 5 años estudiando 
-            literatura, lengua y cultura alemana e inglesa en París, Viena y 
-            Múnich, me trasladé a Berlín hace unos 3 años. y cultura en París, 
-            Viena y Múnich, me trasladé a Berlín hace unos 3 años. Tuve la 
-            oportunidad de hacer contactos increíbles en Alemania y de trabajar 
-            en equipos alemanes e internacionales como traductora en el mercado 
-            del lujo. Estaré encantada de en su aprendizaje, tanto si es nuevo en 
-            el alemán y el francés como si quiere dominarlos a la perfección." 
+            description="Enseño alemán y francés a interesados en los idiomas y soy traductora diplomada 
+            por el Instituto Francés de Traducción y Gestión Intercultural (ISIT). Después de 5 años estudiando literatura, 
+            lengua y cultura alemana e inglesa en París, Viena y Múnich, me trasladé a Berlín hace unos 3 años. 
+            Tuve la oportunidad de hacer contactos increíbles en Alemania y de trabajar en equipos alemanes e internacionales 
+            como traductora en el mercado de lujo. Estaré encantada de ayudar en tu aprendizaje, 
+            tanto si eres nuevo en el alemán y el francés como si quieres dominarlos a la perfección." 
             src="../img/SophieProfile.jpg" 
         />
         <EmployeeCard 
@@ -61,18 +53,13 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             name="Christian Blanco" 
             title="Educador (ES, DE, EN, FR)" 
             description="Tengo la nacionalidad francesa y española y el español y 
-            el francés son mis lenguas maternas y tengo un certificado B2-C1 en 
-            inglés y un C1.2 en alemán. Doy clases de inglés y francés y alemán, 
-            he hecho los cursos ELE en el Instituto Cervantes de Viena y tengo la 
-            acreditación DELE en el Instituto Cervantes de Zagreb para enseñar y 
-            examinar oficialmente la lengua española. Soy Licenciado en Historia 
-            del Arte por la Universidad Autónoma de Madrid (España), Máster en 
-            Filosofía Teórica y Práctica por la UNED y la Universidad de Jena 
-            (Alemania), Máster en Historia y Filosofía de la Ciencia por la 
-            Universidad de Viena (Austria) y la École Normale Supérieure de París 
-            (Francia); MA. en Unión Europea: European Multilevel Integration and 
-            Fundamental Rights en la UNED y en breve comenzará un doctorado 
-            en Filosofía." 
+            el francés son mis lenguas maternas y tengo un certificado B2-C1 en inglés y un C1.2 en alemán. 
+            Doy clases de inglés y francés y alemán, he hecho los cursos ELE en el Instituto Cervantes de Viena y tengo 
+            la acreditación DELE en el Instituto Cervantes de Zagreb para enseñar y examinar oficialmente la lengua española. 
+            Soy Licenciado en Historia del Arte por la Universidad Autónoma de Madrid (España), Máster en Filosofía Teórica y Práctica 
+            por la UNED y la Universidad de Jena (Alemania), Máster en Historia y Filosofía de la Ciencia por la Universidad de Viena 
+            (Austria) y la École Normale Supérieure de París (Francia); MA. en Unión Europea: 
+            European Multilevel Integration and Fundamental Rights en la UNED y en breve comenzaré un doctorado en Filosofía." 
             src="../img/ChristianProfile.jpg" 
         />
     </div>

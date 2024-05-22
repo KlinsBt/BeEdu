@@ -26,8 +26,8 @@
                         <p style="font-size: 12px;">15 de mayo de 2024</p>
                     </div>
                     <p>
-                        ¿Alguna vez se ha preguntado cuánto se tarda en dominar el alemán? Es una 
-                        pregunta común entre aquellos deseosos de adentrarse en esta hermosa lengua ...
+                        ¿Alguna vez te has preguntado cuánto se tarda en dominar el alemán? Es una 
+                        pregunta común entre aquellos interesados en adentrarse en esta hermosa lengua ...
                     </p>
                 </div>
             </div>

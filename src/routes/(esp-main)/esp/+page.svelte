@@ -15,16 +15,14 @@
 
 <main>
     <TopSection 
-        main_title="BERNDT EDUCATION: Su puerta de acceso a excepcionales cursos de idiomas en línea"
-        main_subtitle="Domine su idioma con las clases personalizadas de Berndt Education"
-        main_descr="En Berndt Education, ofrecemos cursos de idiomas personalizados de 
-        aprendizaje individual y clases en grupo para empresas, creando las condiciones 
-        ideales para que aprenda el idioma deseado de la forma más rápida y eficaz posible. 
-        Educadores profesionales crearán un programa a medida que se adapte a su conciliación 
-        de la vida laboral y familiar y le deje más inteligente que antes después de cada sesión. 
-        Con nuestro enfoque innovador, disfrute de flexibilidad y comodidad con acceso en línea 
-        24 horas al día, 7 días a la semana. Practique español, francés, alemán y otros idiomas 
-        con nuestros profesores expertos. Empiece hoy mismo y descubra el placer de dominar idiomas."
+        main_title="BERNDT EDUCATION: Tu puerta de acceso a los mejores cursos de idiomas en línea"
+        main_subtitle="Domina tu idioma con las clases personalizadas de Berndt Education"
+        main_descr="En Berndt Education, ofrecemos cursos de idiomas personalizados de aprendizaje individual y 
+        clases en grupo para empresas, creando las condiciones ideales para que aprendas el idioma deseado de la forma más rápida 
+        y eficaz posible. Educadores profesionales crearán un programa a medida que se adapte a tu conciliación de la vida laboral 
+        y te ayude a mejorar tu inteligencia en idiomas después de cada sesión. Con nuestro enfoque innovador, disfruta de 
+        flexibilidad y comodidad con acceso en línea 24 horas al día, 7 días a la semana. Practica español, francés, alemán y otros idiomas con 
+        nuestros profesores expertos.Empieza hoy mismo y descubre la satisfacción de dominar tus idiomas."
         button1="Contacto"
         button1_link="/esp/contact"
         button2="Cursos"
@@ -34,8 +32,8 @@
     <SubSection 
         title="El SISTEMA BE DE APRENDIZAJE"
         subtitle="ACTIVO"
-        paragraph="El método para aprender con éxito Con Berndt Education, usted o su empresa 
-        se benefician de un atractivo concepto de aprendizaje que explota la interconexión a 
+        paragraph="El método para aprender con éxito Con Berndt Education, 
+        tú o tu empresa se benefician de un atractivo concepto de aprendizaje que explota la interconexión a 
         través de los medios de comunicación junto con los métodos de aprendizaje clásicos. 
         Los educadores de BE están especializados en estrategias neurolingüísticas para que 
         su experiencia de aprendizaje sea envolvente y la retención del material permanente."

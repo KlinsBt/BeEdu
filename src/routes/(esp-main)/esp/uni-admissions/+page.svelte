@@ -26,12 +26,11 @@ import Services from "$lib/components/sub-sites/uni-admissions/services.svelte";
         mundo. Nuestro equipo de consultores experimentados tiene un historial 
         probado de resultados satisfactorios para nuestros clientes."
 
-        box_2_text="13 años de experiencia como consultor y líder de programas 
-        educativos de alto nivel en el Reino Unido, y ha trabajado con cientos 
-        de estudiantes en instituciones instituciones de clase mundial como 
-        Oxford, Cambridge, Londres y la Universidad de Harvard. Los tutores de 
-        Berndt Education diseñarán exitosos planes académicos y profesionales 
-        personalizados para los estudiantes. En nuestra consultoría, nos 
+        box_2_text="13 años de experiencia como consultor y líder de programas educativos de alto nivel en el Reino Unido, 
+        y ha trabajado con cientos de estudiantes en instituciones instituciones de clase mundial como Oxford, Cambridge, Londres 
+        y la Universidad de Harvard. 
+        Los tutores de Berndt Education diseñarán exitosos planes académicos y profesionales personalizados para los estudiantes. 
+        En nuestra consultoría, nos 
         enorgullecemos de nuestro equipo de consultores experimentados. Todos 
         nuestros tutores han sido responsables de admisiones y/o han impartido 
         clases para la Universidad de Oxford. Esto proporciona una visión única 

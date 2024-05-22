@@ -21,7 +21,7 @@ import BottomBox from "$lib/components/sub-sites/education-travel/bottom-infobox
 <TopBox 
     title="Estudia como un auténtico estudiante británico"
     bulletpoint1="- Desafíate a ti mismo"
-    bulletpoint2="- Alcance sus objetivos"
+    bulletpoint2="- Alcanza tus objetivos"
     p1="Vive y estudia en el centro de Oxford, Cambridge y Londres 
     experimentando la vida en un internado o universidad británicos 
     tradicionales. Explora los lugares más famosos del Reino Unido: el 
@@ -34,9 +34,8 @@ import BottomBox from "$lib/components/sub-sites/education-travel/bottom-infobox
 <div>
     <img src="/img/pexels-vjapratama-935835.jpg" alt="Summer Camp">
     <BottomBox 
-        p1="¡Disfrute del verano de su vida!"
-        p2="Póngase en contacto con nosotros para obtener más información 
-        sobre programas, lugares y fechas:"
+        p1="¡Disfruta del verano de tu vida!"
+        p2="Pónte en contacto con nosotros para obtener más información sobre programas, lugares y fechas:"
         button="RESERVAR UNA CONSULTA"
     />
 </div>
