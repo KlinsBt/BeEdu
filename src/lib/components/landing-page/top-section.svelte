@@ -110,7 +110,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    padding: 10px 5px;
+    padding: 10px 0px;
     margin: 10px 20px 0px 0px;
     cursor: pointer;
     border: 0.5px solid white;
@@ -154,6 +154,31 @@ a {
 .button-2:active {
     background-color: rgb(44, 44, 44);
     color: #808080;
+}
+
+@media (min-height: 600px) {
+    section {
+        height: auto;
+        min-height: 545px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .button-1, .button-2 {
+        font-size: 25px;
+        padding: 7px 25px;
+        width: auto;
+    }
 }
 
 @media (min-width: 550px) and (max-width: 1300px) {
