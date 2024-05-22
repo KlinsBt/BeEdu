@@ -156,7 +156,7 @@ a {
     color: #808080;
 }
 
-@media (min-height: 600px) {
+@media (max-height: 600px) {
     section {
         height: auto;
         min-height: 545px;
