@@ -1,6 +1,17 @@
+/* @font-face{
+	font-family: "FigtreeExtraBold";
+	src: url("../src/lib/fonts/webfonts/Figtree-ExtraBold.woff2") format("woff2");
+} */
+
+:root {
+	--font-body: FigtreeRegular, "Poppins", "Segoe UI", "Helvetica Neue", sans-serif;
+	--brand-color-1: #1c1d25;
+	--brand-color-2: #d6b18c;
+	font-family: var(--font-body);
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-body);
     margin: 0;
     padding: 0;
 }
@@ -35,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 
@@ -44,55 +55,23 @@ p {
     font-size: 20px;
     font-weight: 300;
 }
-/* 
-#col-list  {
-    margin-top: 5px !important;
-}
 
-#col-list > li  {
-    font-size: 19px !important;
-}
+@media (min-width: 0px) and (max-width: 550px) {
 
-@media (min-width: 301px) and (max-width: 340px) {
-    
-    .sec-1 {
-        padding: 70px 10px 0px 10px !important;
-        margin-top: 0px !important;
-        height: 800px !important;
-    }
-
-    .sec-1 > div > div {
-        width: 270px !important;
-    }
-
-    #col-list  {
-        margin-top: 5px !important;
-    }
-
-    #col-list > li  {
-        font-size: 21px !important;
+    h1 {
+        font-size: 35px;
     }
     
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
 }
-
-@media (min-width: 341px) and (max-width: 440px) {
-
-    #col-list  {
-        margin-top: 5px !important;
-    }
-
-    #col-list > li  {
-        font-size: 21px !important;
-    }
-}
-
-@media (min-width: 441px) and (max-width: 540px) {
-
-    #col-list  {
-        margin-top: 5px !important;
-    }
-
-    #col-list > li  {
-        font-size: 21px !important;
-    }
-} */
