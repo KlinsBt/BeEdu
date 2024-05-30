@@ -68,7 +68,7 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
         />
         <EmployeeCard 
             name="Adam Fierst" 
-            title="Educator (EN)" 
+            title="Educador (EN)"
             description="Soy Adam, educador de inglés en Berndt Education. Comencé mi viaje de enseñanza en 2018. Originario de los 
             Estados Unidos, soy un hablante nativo de inglés con un profundo conocimiento del idioma. Actualmente radicado en España, 
             me he sumergido en la cultura y el idioma español durante los últimos cinco años. Hablo español con fluidez y aporto a 
