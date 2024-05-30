@@ -30,7 +30,7 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             program management as well as curriculum development for language 
             and for children with cochlear implants collaborating with the 
             high-end facilities and staff at Sada Educational Center in Kuwait." 
-            src="img/DennyProfile.jpg" 
+            src="img/DennyProfile.jpg" alt="Denny-profile-photo"
         />
         <EmployeeCard 
             name="Anne-Sophie" 
@@ -45,7 +45,7 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             translator in the luxury market. I will be happy to support you on 
             your learning path, whether you are new to German and French or 
             aiming for perfect fluency." 
-            src="img/SophieProfile.jpg" 
+            src="img/SophieProfile.jpg" alt="Sophie-profile-photo"
         />
         <EmployeeCard 
             name="Aneela Shah" 
@@ -54,7 +54,7 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             studied English Language and Literature. I love reading and poetry, 
             and teaching the English language is one of my passions. I also 
             work as a copywriter for a marketing company based in Oxford." 
-            src="img/AneelaProfile.jpg" 
+            src="img/AneelaProfile.jpg" alt="Aneela-profile-photo"
         />
         <EmployeeCard 
             name="Christian Blanco" 
@@ -71,8 +71,20 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             University of Vienna in Austria and the École Normale Supérieure of Paris 
             in France; MA. in European Union: European Multilevel Integration and 
             Fundamental Rights at the UNED and will begin a PhD in Philosophy shortly." 
-            src="img/ChristianProfile.jpg" 
+            src="img/ChristianProfile.jpg" alt="Cristian-profile-photo"
         />
+        <EmployeeCard 
+        name="Adam Fierst" 
+        title="Educator (EN)" 
+        description="I am Adam, an English educator at Berndt Education. I started my teaching journey in 2018. 
+        Originally from the United States, I am a native English speaker with a deep understanding of the language. 
+        Currently based in Spain, I have immersed myself in the Spanish culture and language for the past five years.
+        Fluent in Spanish, I bring firsthand knowledge of Spanish customs and colloquialisms to my teaching. I also 
+        studied German during my Bachelor's in Global & International Studies, spending time in Germany to further hone my skills.
+        With over 5,000 hours of teaching experience, I offer personalized English lessons tailored to each student's needs. 
+        My patient and engaging teaching style creates a supportive learning environment where students can thrive." 
+        src="img/AdamProfile.jpeg" alt="Adam-profile-photo" 
+    />
     </div>
     <div class="logo-container">
         <div>

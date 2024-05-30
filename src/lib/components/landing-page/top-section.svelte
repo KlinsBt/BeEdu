@@ -16,7 +16,7 @@ export let button2_link = "";
 
 <section class="sec-1">
 
-    <img id="main-logo" src="img/icons/Wordpress Transparent.png" alt="Berndt Education Main Banner">
+    <img id="main-logo" src="img/icons/Wordpress Transparent.png" alt="Berndt Education Main Banner" title="Berndt Education Main Banner">
 
     <div class="landing-page-info">
         <img id="main-logo-2" src="img/logos/TransparentLogo.png" alt="Logo">

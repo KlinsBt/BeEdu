@@ -11,7 +11,7 @@
 <svelte:head>
     <title>Berndt Education: Personalized Language Courses for You</title>
     <link rel="icon" href="/favicon.png" />
-    <meta name="description" content="Personalized language courses in German, English, Spanish and French. Tailored to your needs for effective learning.">
+    <meta name="description" content="Personalized language courses in German, English, Spanish, and French. Tailored to your needs for effective learning and achieving your goals.">
     <meta name="keywords" content="language, education, courses, learn, online, english, german, french, spanish, personalized, virtual classes, zoom">
     <link rel="icon" type="image/png" href="img/icons/Wordpress.png">
 
@@ -20,7 +20,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://berndteducation.com" />
     <meta property="og:site_name" content="Berndt Education: Personalized Language Courses for You" />
-    <meta property=“og:description“ content="Personalized language courses in German, English, Spanish and french. Tailored to your needs for effective learning." />
+    <meta property=“og:description“ content="Personalized language courses in German, English, Spanish, and French. Tailored to your needs for effective learning and achieving your goals." />
     <!-- <meta name="google-site-verification" content="dThTT2bH3f172KZ7ZB5QTzFPLGL9K14pqrPUG3uAQ3c" /> -->
 </svelte:head>   
     
@@ -33,7 +33,7 @@
         to learn your desired language as quickly and effectively as possible. Professional 
         educators will create a tailor-made program that suits your work-life  balance and 
         leaves you smarter than before after every session. With our innovative approach, 
-        enjoy flexibility and convenience with online 24/7 access. Practice speaking Spanish, 
+        enjoy flexibility and convenience with online virtual classes. Practice speaking Spanish, 
         French, German, and more with our expert instructors. Start today and discover the joy 
         of mastering languages with Berndt Education."
         button1="Contact Us"
@@ -45,10 +45,13 @@
     <SubSection 
         title="BE ACTIVE LEARNING SYSTEM"
         subtitle="The method for successful learning"
-        paragraph="At Berndt Education, you or your company benefit from an 
-        engaging learning concept that leverages interconnectedness via media alongside classic
-        learning methods. Our educators specialize in neuro-linguistic strategies, ensuring that 
-        your online language courses are immersive and that material retention is permanent."
+        paragraph="At Berndt Education, you or your company benefit from
+         an engaging learning concept that leverages interconnectedness via 
+         media alongside classic learning methods. Our language educators 
+         specialize in neuro-linguistic strategies, ensuring that your online 
+         language courses are immersive and that material retention is permanent. 
+         Whether you want to learn English, German, French, or Spanish, our virtual 
+         classes are tailored to your needs for effective education and lasting results."
     />
 
     <BenefitsSection 
