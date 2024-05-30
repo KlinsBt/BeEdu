@@ -34,12 +34,12 @@
     <SubSection 
         title="BE ACTIVE LEARNING SYSTEM"
         subtitle="The method for successful learning"
-        paragraph="At Berndt Education, you or your company benefit from
-         an engaging learning concept that leverages interconnectedness via media 
-         alongside classic learning methods. Our language educators specialize in 
-         neuro-linguistic strategies, ensuring that your online language courses are 
-         immersive and that material retention is permanent. Whether you want to learn 
-         English, German, French, or Spanish, our virtual classes are tailored 
+        paragraph="At Berndt Education, you or your company benefit 
+        from an engaging learning concept that leverages interconnectedness via 
+        media alongside classic learning methods. Our language educators specialize 
+        in neuro-linguistic strategies, ensuring that your online language courses 
+        are immersive and that material retention is permanent. Whether you want to 
+        learn English, German, French, or Spanish, our virtual classes are tailored 
         to your needs for effective education and lasting results."
     />
 

@@ -27,7 +27,8 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             literatura española. Me he especializado en la enseñanza de idiomas, la escuela y la educación gestión de programas, 
             así como en el desarrollo de planes de estudio para el lenguaje y para niños con 
             implantes cocleares colaborando con las instalaciones y el personal de alto nivel del Centro Educativo Sada de Kuwait." 
-            src="../img/DennyProfile.jpg" 
+            src="../img/DennyProfile.jpg"
+            alt="Denny-profile-photo"
         />
         <EmployeeCard 
             name="Anne-Sophie" 
@@ -38,7 +39,8 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             Tuve la oportunidad de hacer contactos increíbles en Alemania y de trabajar en equipos alemanes e internacionales 
             como traductora en el mercado de lujo. Estaré encantada de ayudar en tu aprendizaje, 
             tanto si eres nuevo en el alemán y el francés como si quieres dominarlos a la perfección." 
-            src="../img/SophieProfile.jpg" 
+            src="../img/SophieProfile.jpg"
+            alt="Sophie-profile-photo"
         />
         <EmployeeCard 
             name="Aneela Shah" 
@@ -47,7 +49,8 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             Filología Inglesa. Me encanta la lectura y la poesía, y enseñar la 
             lengua inglesa es una de mis pasiones. También trabajo como redactora 
             para una empresa de marketing con sede en Oxford." 
-            src="../img/AneelaProfile.jpg" 
+            src="../img/AneelaProfile.jpg"
+            alt="Aneela-profile-photo"
         />
         <EmployeeCard 
             name="Christian Blanco" 
@@ -60,7 +63,22 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             por la UNED y la Universidad de Jena (Alemania), Máster en Historia y Filosofía de la Ciencia por la Universidad de Viena 
             (Austria) y la École Normale Supérieure de París (Francia); MA. en Unión Europea: 
             European Multilevel Integration and Fundamental Rights en la UNED y en breve comenzaré un doctorado en Filosofía." 
-            src="../img/ChristianProfile.jpg" 
+            src="../img/ChristianProfile.jpg"
+            alt="Christian-profile-photo"
+        />
+        <EmployeeCard 
+            name="Adam Fierst" 
+            title="Educator (EN)" 
+            description="Soy Adam, educador de inglés en Berndt Education. Comencé mi viaje de enseñanza en 2018. Originario de los 
+            Estados Unidos, soy un hablante nativo de inglés con un profundo conocimiento del idioma. Actualmente radicado en España, 
+            me he sumergido en la cultura y el idioma español durante los últimos cinco años. Hablo español con fluidez y aporto a 
+            mi enseñanza un conocimiento de primera mano de las costumbres y coloquialismos españoles. También estudié alemán durante 
+            mi licenciatura en Estudios Globales e Internacionales, pasando tiempo en Alemania para perfeccionar mis habilidades. 
+            Con más de 5.000 horas de experiencia docente, ofrezco clases de inglés personalizadas y adaptadas a las necesidades de cada 
+            alumno. Mi estilo de enseñanza paciente y atractivo crea un ambiente de aprendizaje de apoyo donde los estudiantes pueden 
+            prosperar." 
+            src="../img/AdamProfile.jpeg" 
+            alt="Adam-profile-photo" 
         />
     </div>
     <div class="logo-container">

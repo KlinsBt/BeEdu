@@ -4,6 +4,7 @@ export let name = "";
 export let title = "";
 export let description = "";
 export let src = "";
+export let alt = "";
 
 </script>
 
@@ -19,7 +20,7 @@ export let src = "";
 <div class="card">
     <div class="circle">
         <div class="img-box">
-            <img src={src} alt="Profile">
+            <img src={src} alt={alt}>
         </div>
     </div>
     <div class="content">

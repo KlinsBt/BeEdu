@@ -31,7 +31,8 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             Lehrplanentwicklung für Sprache und für Kinder mit Cochlea-Implantaten 
             spezialisiert; Dabei habe ich mit den hervorragenden Einrichtungen und 
             Mitarbeitern des SADA Educational Center in Kuwait zusammengearbeitet." 
-            src="../img/DennyProfile.jpg" 
+            src="../img/DennyProfile.jpg"
+            alt="Denny-profile-photo"
         />
         <EmployeeCard 
             name="Anne-Sophie" 
@@ -46,7 +47,8 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             Teams als Übersetzerin in der Luxusbranche zu arbeiten. Ich würde mich freuen, 
             Sie auf Ihrem Lernweg zu unterstützen, ganz gleich, ob Sie neu in der deutschen 
             und französischen Sprache sind oder eine perfekte Sprachbeherrschung anstreben." 
-            src="../img/SophieProfile.jpg" 
+            src="../img/SophieProfile.jpg"
+            alt="Sophie-profile-photo"
         />
         <EmployeeCard 
             name="Aneela Shah" 
@@ -55,11 +57,12 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             Sprache und Literatur studiert. Ich liebe Lesen und Poesie, und das Unterrichten 
             der englischen Sprache ist eine meiner Leidenschaften. Außerdem arbeite ich als 
             Werbetexterin für ein Marketingunternehmen mit Sitz in Oxford." 
-            src="../img/AneelaProfile.jpg" 
+            src="../img/AneelaProfile.jpg"
+            alt="Aneela-profile-photo"
         />
         <EmployeeCard 
             name="Christian Blanco" 
-            title="Educator (ES, DE, EN, FR)" 
+            title="Dozent (ES, DE, EN, FR)" 
             description="Ich habe die französische und spanische Staatsbürgerschaft, Spanisch 
             und Französisch sind meine Muttersprachen und ich habe ein zertifiziertes B2-C1 in 
             Englisch und ein C1.2 in Deutsch. Ich unterrichte Englisch, Französisch und Deutsch, 
@@ -71,7 +74,26 @@ import EmployeeCard from "$lib/components/sub-sites/about-us/employee-card1.svel
             und Philosophie an der Universität Wien in Österreich und an der École Normale Supérieure 
             in Paris, Frankreich; einen MA in Europäische Union: 'European Multilevel Integration 
             and Fundamental Rights' an der UNED und werde in Kürze ein Doktorat in Philosophie beginnen." 
-            src="../img/ChristianProfile.jpg" 
+            src="../img/ChristianProfile.jpg"
+            alt="Christian-profile-photo" 
+        />
+        <EmployeeCard 
+            name="Adam Fierst"
+            title="Dozent (EN)"
+            description="Ich bin Adam, ein Englischlehrer bei Berndt Education. Ich habe meine Reise 
+            als Lehrer im Jahr 2018 begonnen. Ursprünglich komme ich aus den Vereinigten Staaten und 
+            bin englischer Muttersprachler mit einem tiefen Verständnis für die englische Sprache. 
+            Derzeit lebe ich in Spanien und habe mich in den letzten fünf Jahren in die spanische 
+            Kultur und Sprache vertieft. Da ich fließend Spanisch spreche, bringe ich mein Wissen über 
+            spanische Bräuche und Umgangssprache aus erster Hand in meinen Unterricht ein. Während 
+            meines Bachelor-Studiums in Global & International Studies habe ich auch Deutsch studiert 
+            und einige Zeit in Deutschland verbracht, um meine Kenntnisse weiter zu vertiefen. Mit mehr 
+            als 5.000 Stunden Unterrichtserfahrung biete ich individuellen Englischunterricht, der auf 
+            die Bedürfnisse jedes einzelnen Schülers zugeschnitten ist. Mein geduldiger und einnehmender 
+            Unterrichtsstil schafft eine unterstützende Lernumgebung, in der sich die Schüler 
+            entfalten können."
+            src="../img/AdamProfile.jpeg" 
+            alt="Adam-profile-photo"
         />
     </div>
     <div class="logo-container">
