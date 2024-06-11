@@ -2,47 +2,72 @@
 export let imgSrc = "";
 export let title = "";
 export let p1 = "";
-export let sub_title1 = "";
 export let p2 = "";
 export let p3 = "";
-export let p4 = "";
+export let sub_title1 = "";
 export let p5 = "";
-export let p6 = "";
+export let sub_title2 = "";
+export let p7 = "";
+export let sub_title3 = "";
+export let p9 = "";
+export let sub_title4 = "";
+export let p11 = "";
+export let sub_title5 = "";
+export let p13 = "";
+export let p14 = "";
+export let p15 = "";
+export let sub_title6 = "";
+export let p17 = "";
+export let p18 = "";
+export let p19 = "";
 </script>
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 <div class="blog-container">
-    <img id="blog-main-img" src={imgSrc} alt="Blog">
     <h1 id="blog-main-title">{title}</h1>
     <div id="blog-content">
         <p>{p1}</p>
-        <h2>{sub_title1}</h2>
         <p>{p2}</p>
         <p>{p3}</p>
-        <p>{p4}</p>
+        <h2>{sub_title1}</h2>
         <p>{p5}</p>
-        <p>{p6}</p>
+        <img id="blog-main-img" src={imgSrc} alt="Blog">
+        <h2>{sub_title2}</h2>
+        <p>{p7}</p>
+        <h2>{sub_title3}</h2>
+        <p>{p9}</p>
+        <h2>{sub_title4}</h2>
+        <p>{p11}</p>
+        <h2>{sub_title5}</h2>
+        <p>{p13}</p>
+        <p>{p14}</p>
+        <p>{p15}</p>
+        <h2>{sub_title6}</h2>
+        <p>{p17}</p>
+        <p>{p18}</p>
+        <p>{p19}</p>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 <style>
+
 .blog-container {
     display: grid;
     justify-items: center;
@@ -90,5 +115,5 @@ p {
         color: aliceblue;
     }
 }
-
+    
 </style>

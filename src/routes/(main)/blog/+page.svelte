@@ -17,7 +17,7 @@
     </div>
     <div class="blogs-container">
         <a href="/blog/blog1">
-            <img src="/img/blog-images/blog1.jpg" alt="Blog">
+            <img src="/img/blog-images/blog1.jpg" alt="Blog 1">
             <div>
                 <h2>How Long Does It Take to Learn German?</h2>
                 <div>
@@ -28,6 +28,23 @@
                     <p>
                         Ever wondered how long it takes to master German? It's a common question among 
                         those eager to delve into this beautiful language ...
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/blog/blog2">
+            <img src="/img/blog-images/blog2.jpg" alt="Blog 2">
+            <div>
+                <h2>Unleash Your Language Learning Potential from Anywhere</h2>
+                <div>
+                    <div>
+                        <p>Denny Berndt</p>
+                        <p style="font-size: 12px;">05 June 2024</p>
+                    </div>
+                    <p>
+                        In today's interconnected world, acquiring a new language has become 
+                        an increasingly valuable skill. German, in particular, opens doors ...
                     </p>
                 </div>
             </div>
@@ -53,6 +70,7 @@ section {
     align-items: center;
     min-height: 100vh;
     background-color: #1c1d25;
+    padding: 0px 0px 50px 0px;
 }
 
 .page-title-container {
@@ -85,8 +103,9 @@ a {
 }
 
 a > img {
-    width: 280px;
+    width: 285px;
     height: auto;
+    height: 180px;
     border-radius: 10px 0px 0px 10px;
 }
 

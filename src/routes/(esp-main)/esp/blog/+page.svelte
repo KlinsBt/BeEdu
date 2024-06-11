@@ -32,6 +32,23 @@
                 </div>
             </div>
         </a>
+
+        <a href="/esp/blog/blog2">
+            <img src="/img/blog-images/blog2.jpg" alt="Blog 2">
+            <div>
+                <h2>Libere su potencial de aprendizaje de idiomas desde cualquier lugar</h2>
+                <div>
+                    <div>
+                        <p>Denny Berndt</p>
+                        <p style="font-size: 12px;">05 June 2024</p>
+                    </div>
+                    <p>
+                        En el mundo interconectado de hoy, adquirir un nuevo idioma se ha convertido 
+                        en una habilidad cada vez más valiosa. El alemán, en particular, abre las ...
+                    </p>
+                </div>
+            </div>
+        </a>
     </div>
 </section>
 
@@ -53,6 +70,7 @@ section {
     align-items: center;
     min-height: 100vh;
     background-color: #1c1d25;
+    padding: 0px 0px 50px 0px;
 }
 
 .page-title-container {
@@ -85,8 +103,9 @@ a {
 }
 
 a > img {
-    width: 280px;
+    width: 285px;
     height: auto;
+    height: 180px;
     border-radius: 10px 0px 0px 10px;
 }
 
