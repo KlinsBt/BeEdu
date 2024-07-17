@@ -84,12 +84,12 @@
         />
         <EmployeeCard
             name="Oliver Goodall"
-            title="Educator"
+            title="Maths & Physics Tutor"
             description="I am Oliver, a University of Oxford graduate in Physics, with a master's 
             degree in Particle Physics and Astrophysics. I'm an experienced tutor of mathematics, 
             physics and chemistry, and I love to share my knowledge of these subjects with 
             our clients. I'm about to start a PhD in Theoretical Particle Physics, alongside 
-            my passions via teaching."
+            sharing my passions via teaching."
             src="../img/OliverProfile.jpg"
             alt="Oliver-profile-photo"
         />

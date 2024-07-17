@@ -86,7 +86,7 @@
         />
         <EmployeeCard
             name="Oliver Goodall"
-            title="Dozent"
+            title="Mathematik und Physik Tutor"
             description="Ich bin Oliver, ein Absolvent der University of Oxford in Physik mit einem Master 
             in Teilchenphysik und Astrophysik. Ich habe Erfahrung im Unterrichten von Mathematik, 
             Physik und Chemie, und ich liebe es, mein Wissen in diesen Fächern mit anderen zu teilen. Ich 

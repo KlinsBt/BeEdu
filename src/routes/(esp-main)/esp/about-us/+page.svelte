@@ -71,7 +71,7 @@
         />
         <EmployeeCard
             name="Oliver Goodall"
-            title="Educador"
+            title="Tutor de Matemáticas y Física"
             description="Soy Oliver, licenciado en Física por la Universidad de Oxford, con un máster en Física de Partículas y 
             Astrofísica. Tengo experiencia como tutor de matemáticas, física y química, y me encanta compartir mis conocimientos de 
             estas materias con los demás. Estoy a punto de empezar un doctorado en Física Teórica de Partículas, junto con mi pasión 
