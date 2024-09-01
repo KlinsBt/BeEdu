@@ -93,6 +93,18 @@
             src="../img/OliverProfile.jpg"
             alt="Oliver-profile-photo"
         />
+        <EmployeeCard
+            name="Kelsey"
+            title="Educator (EN)"
+            description="Kelsey is an experienced English teacher with over a decade of diverse 
+            international teaching practice. Originally from Massachusetts, she has spent the past 
+            ten years teaching English in both Taiwan and Spain, immersing herself in their unique 
+            cultures and educational systems. Throughout her career, Kelsey has worked with students 
+            ranging from children to adults, across all different proficiency levels and now enjoys 
+            Business English courses that enhance students' language skills and confidence."
+            src="../img/KelseyProfile.jpg"
+            alt="Kelsey-profile-photo"
+        />
     </div>
     <div class="logo-container">
         <div>

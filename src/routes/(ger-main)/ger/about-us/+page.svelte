@@ -85,15 +85,19 @@
             alt="Adam-profile-photo"
         />
         <EmployeeCard
-            name="Oliver Goodall"
-            title="Mathematik und Physik Tutor"
-            description="Ich bin Oliver, ein Absolvent der University of Oxford in Physik mit einem Master 
-            in Teilchenphysik und Astrophysik. Ich habe Erfahrung im Unterrichten von Mathematik, 
-            Physik und Chemie, und ich liebe es, mein Wissen in diesen Fächern mit anderen zu teilen. Ich 
-            stehe kurz vor dem Beginn einer Promotion in Theoretischer Teilchenphysik, die ich neben 
-            meiner Leidenschaft des Unterrichtens  ausführen werde."
-            src="../img/OliverProfile.jpg"
-            alt="Oliver-profile-photo"
+            name="Kelsey"
+            title="Educator (EN)"
+            description="Kelsey ist eine erfahrene Englischlehrerin mit über einem Jahrzehnt vielfältiger 
+            internationaler Unterrichtspraxis. Ursprünglich aus Massachusetts stammend, hat sie in den letzten 
+            zehn Jahren sowohl in Taiwan als auch in Spanien Englisch unterrichtet und ist dabei in deren 
+            einzigartige Kulturen und Bildungssysteme eingetaucht. Im Laufe ihrer Karriere hat Kelsey mit 
+            Schülern unterschiedlicher Sprachniveaus gearbeitet, von Kindern bis hin zu Erwachsenen, und 
+            jetzt genießt sie Business-Englischkurse, die die Sprachkenntnisse und das Selbstvertrauen 
+            der Schüler verbessern.
+
+            Übersetzt mit DeepL.com (kostenlose Version)"
+            src="../img/KelseyProfile.jpg"
+            alt="Kelsey-profile-photo"
         />
     </div>
     <div class="logo-container">

@@ -79,6 +79,17 @@
             src="../img/OliverProfile.jpg"
             alt="Oliver-profile-photo"
         />
+        <EmployeeCard
+            name="Kelsey"
+            title="Educador (EN)"
+            description="Kelsey es una profesora de inglés con más de una década de experiencia en la enseñanza internacional. 
+            Originaria de Massachusetts, ha pasado los últimos diez años enseñando inglés en Taiwán y España, sumergiéndose en sus 
+            culturas y sistemas educativos únicos. A lo largo de su carrera, Kelsey ha trabajado con estudiantes de todos los niveles, 
+            desde niños a adultos, y ahora disfruta impartiendo cursos de inglés comercial que mejoran las habilidades lingüísticas y 
+            la confianza de los estudiantes."
+            src="../img/KelseyProfile.jpg"
+            alt="Kelsey-profile-photo"
+        />
     </div>
     <div class="logo-container">
         <div>

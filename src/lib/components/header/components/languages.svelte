@@ -3,6 +3,7 @@
 import usFlag from "../../../images/flags/us.png";
 import gerFlag from "../../../images/flags/ger.png";
 import espFlag from "../../../images/flags/esp.png";
+import chFlag from "../../../images/flags/ch.png";
 
 let showLang = false; 
 export let lng = 0;
@@ -20,6 +21,7 @@ const languages = [
     {name: "ENG", flag: usFlag, link: "/eng"},
     {name: "GER", flag: gerFlag, link: "/ger"},
     {name: "ESP", flag: espFlag, link: "/esp"},
+    {name: "CHN", flag: chFlag, link: "/chn"},
 ];
     
 const selectLanguage = (id) => {
@@ -117,7 +119,7 @@ const selectLanguage = (id) => {
     border-radius: 15px 15px 0px 0px !important;
 }
 
-#language-container > a:nth-child(3) > li {
+#language-container > a:nth-child(4) > li {
     border-radius: 0px 0px 15px 15px !important;
 }
 
