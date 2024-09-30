@@ -17,7 +17,7 @@
             alt="Denny-profile-photo"
         />
         <EmployeeCard
-            name="Anne-Sophie"
+            name="Anne-Sophie Boucq"
             title="教育工作者 (DE, EN)"
             description="我毕业于牛津大学，主修英语语言文学。我热爱阅读和诗歌，英语教学也是我的爱好之一。我还在牛津的一家营销公司担任文案工作。"
             src="../img/SophieProfile.jpg"
@@ -59,12 +59,20 @@
             alt="Oliver-profile-photo"
         />
         <EmployeeCard
-            name="Kelsey"
+            name="Kelsey O'Shea"
             title="教育工作者 (EN)"
             description="Kelsey 是一名经验丰富的英语教师，拥有十多年丰富的国际教学经验。她来自马萨诸塞州，过去十年在台湾和西班牙教授英语，沉浸在两国独特的文化和教育体系中。
             在她的职业生涯中，Kelsey 教授过的学生从儿童到成人，涵盖了所有不同水平的学生，现在她喜欢商务英语课程，以提高学生的语言技能和自信心。"
             src="../img/KelseyProfile.jpg"
             alt="Kelsey-profile-photo"
+        />
+        <EmployeeCard
+            name="Ethan ZhangCheng"
+            title="亚洲区经理"
+            description="我是 Berndt Education 的亚洲区经理，曾在新加坡国立大学（NUS）和日本早稻田大学学习人类学。我会说汉语（母语）、英语（相当于母语）、法语（DELF B2）
+            和日语（相当于日本语能力考试 N2/B2）。我曾在四个不同的国家生活和学习过。我很高兴能在教育之路上帮助客户，无论是学习一门外语，还是追求他们梦想中的海外学校。"
+            src="../img/EthanProfile.jpg"
+            alt="Ethan-profile-photo"
         />
     </div>
     <div class="logo-container">

@@ -23,7 +23,7 @@
             alt="Denny-profile-photo"
         />
         <EmployeeCard
-            name="Anne-Sophie"
+            name="Anne-Sophie Boucq"
             title="Educator (DE, FR)"
             description="I am teaching German as well as French to language 
             enthusiasts and am a trained translator graduate from The French 
@@ -94,7 +94,7 @@
             alt="Oliver-profile-photo"
         />
         <EmployeeCard
-            name="Kelsey"
+            name="Kelsey O'Shea"
             title="Educator (EN)"
             description="Kelsey is an experienced English teacher with over a decade of diverse 
             international teaching practice. Originally from Massachusetts, she has spent the past 
@@ -104,6 +104,18 @@
             Business English courses that enhance students' language skills and confidence."
             src="../img/KelseyProfile.jpg"
             alt="Kelsey-profile-photo"
+        />
+        <EmployeeCard
+            name="Ethan ZhangCheng"
+            title="Area Manager Asia"
+            description="I'm the Area Manager in Asia for Berndt Education and studied anthropology 
+            at the National University of Singapore (NUS) and Waseda University in Japan. I speak 
+            Mandarin Chinese (mother tongue), English (native equivalent), French (DELF B2) and 
+            Japanese (JLPT N2/B2 equivalent). I have lived and studied in four different countries. 
+            I am excited to help clients on their education journey, be it in learning a foreign 
+            language or in pursuing their dream school overseas."
+            src="../img/EthanProfile.jpg"
+            alt="Ethan-profile-photo"
         />
     </div>
     <div class="logo-container">

@@ -24,7 +24,7 @@
             alt="Denny-profile-photo"
         />
         <EmployeeCard
-            name="Anne-Sophie"
+            name="Anne-Sophie Boucq"
             title="Dozentin (DE, FR)"
             description="Ich unterrichte sowohl Deutsch als auch Französisch für 
             Sprachbegeisterte und bin ausgebildete Übersetzerin mit einem Abschluss 
@@ -85,7 +85,7 @@
             alt="Adam-profile-photo"
         />
         <EmployeeCard
-            name="Kelsey"
+            name="Kelsey O'Shea"
             title="Educator (EN)"
             description="Kelsey ist eine erfahrene Englischlehrerin mit über einem Jahrzehnt vielfältiger 
             internationaler Unterrichtspraxis. Ursprünglich aus Massachusetts stammend, hat sie in den letzten 
@@ -98,6 +98,18 @@
             Übersetzt mit DeepL.com (kostenlose Version)"
             src="../img/KelseyProfile.jpg"
             alt="Kelsey-profile-photo"
+        />
+        <EmployeeCard
+            name="Ethan ZhangCheng"
+            title="Länderbereichsleiter Asien"
+            description="Ich bin Länderbereichsleiter in Asien für Berndt Education und habe Anthropologie 
+            an der National University of Singapore (NUS) und der Waseda University in Japan studiert. 
+            Ich spreche Mandarin-Chinesisch (Muttersprache), Englisch (Muttersprache), Französisch 
+            (DELF B2) und Japanisch (JLPT N2/B2). Ich habe in vier verschiedenen Ländern gelebt und 
+            studiert. Ich freue mich darauf, Kunden auf ihrem Bildungsweg zu unterstützen, sei es beim 
+            Erlernen einer Fremdsprache oder auf dem Weg zu ihrer Traumschule in Übersee."
+            src="../img/EthanProfile.jpg"
+            alt="Ethan-profile-photo"
         />
     </div>
     <div class="logo-container">

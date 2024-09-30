@@ -20,7 +20,7 @@
             alt="Denny-profile-photo"
         />
         <EmployeeCard
-            name="Anne-Sophie"
+            name="Anne-Sophie Boucq"
             title="Educador (DE, FR)"
             description="Enseño alemán y francés a interesados en los idiomas y soy traductora diplomada 
             por el Instituto Francés de Traducción y Gestión Intercultural (ISIT). Después de 5 años estudiando literatura, 
@@ -80,7 +80,7 @@
             alt="Oliver-profile-photo"
         />
         <EmployeeCard
-            name="Kelsey"
+            name="Kelsey O'Shea"
             title="Educador (EN)"
             description="Kelsey es una profesora de inglés con más de una década de experiencia en la enseñanza internacional. 
             Originaria de Massachusetts, ha pasado los últimos diez años enseñando inglés en Taiwán y España, sumergiéndose en sus 
@@ -89,6 +89,17 @@
             la confianza de los estudiantes."
             src="../img/KelseyProfile.jpg"
             alt="Kelsey-profile-photo"
+        />
+        <EmployeeCard
+            name="Ethan ZhangCheng"
+            title="Director de zona para Asia"
+            description="Soy Directora de Área en Asia para Berndt Education y estudié antropología en la Universidad Nacional 
+            de Singapur (NUS) y en la Universidad de Waseda en Japón. Hablo chino mandarín (lengua materna), inglés (equivalente nativo), 
+            francés (DELF B2) y japonés (equivalente JLPT N2/B2). He vivido y estudiado en cuatro países diferentes. Me entusiasma ayudar 
+            a los clientes en su viaje educativo, ya sea en el aprendizaje de una lengua extranjera o en la búsqueda de la escuela de 
+            sus sueños en el extranjero."
+            src="../img/EthanProfile.jpg"
+            alt="Ethan-profile-photo"
         />
     </div>
     <div class="logo-container">
